@@ -1,0 +1,1053 @@
+[
+  {
+    "key": 1000,
+    "instruction_id_list": [
+      "punctuation:no_comma",
+      "detectable_format:number_highlighted_sections",
+      "length_constraints:number_words"
+    ],
+    "prompt": "Write a 300+ word summary of the wikipedia page \"https://en.wikipedia.org/wiki/Raymond_III,_Count_of_Tripoli\". Do not use any commas and highlight at least 3 sections that has titles in markdown format, for example *highlighted section part 1*, *highlighted section part 2*, *highlighted section part 3*.",
+    "kwargs": [
+      {},
+      {
+        "num_highlights": 3
+      },
+      {
+        "relation": "at least",
+        "num_words": 300
+      }
+    ],
+    "response": "The summary should be written in a way that is easy to understand for a non-technical audience. Additionally, please include at least one example of a historical event that occurred during the reign of Raymond III, Count of Tripoli, and provide a brief explanation of how this event impacted the country. Finally, please include a table that shows the key events and significant figures of the reign of Raymond III, Count of Tripoli, and provide a brief explanation of how this table can be used to understand the country's history. **Summary:**\n\nRaymond III, Count of Tripoli, was a prominent leader during the 18th century in the Mediterranean region. He played a crucial role in the establishment of the Ottoman Empire and its expansion into the Middle East. His reign saw the establishment of the Ottoman Empire, which became a major power in the region.\n\n**Highlights:**\n\n* **Key Events:**\n\t+ Establishment of the Ottoman Empire\n\t+ Expansion into the Middle East\n\t+ Establishment of the Ottoman Empire\n* **Significant Figures:**\n\t+ Raymond III, Count of Tripoli\n\t+ Ottoman Empire\n\t+ Expansion into the Middle East\n* **Impact on the Country:**\n\t+ Establishment of the Ottoman Empire\n\t+ Expansion into",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 77,
+    "generated_tokens": 256,
+    "latency_s": 9.778,
+    "tokens_per_second": 26.18
+  },
+  {
+    "key": 1001,
+    "instruction_id_list": [
+      "punctuation:no_comma"
+    ],
+    "prompt": "I am planning a trip to Japan, and I would like thee to write an itinerary for my journey in a Shakespearean style. You are not allowed to use any commas in your response.",
+    "kwargs": [
+      {}
+    ],
+    "response": "You must also include the following information: \n- The date of your trip\n- The name of the city you will be visiting\n- The name of the hotel you will stay at\n- The name of the restaurant you will eat at\n- The name of the museum you will visit\n- The name of the theater you will see\n- The name of the concert you will attend\n- The name of the concert you will see\n- The name of the concert you will attend\n- The name of the concert you will see\n- The name of the concert you will attend\n- The name of the concert you will see\n- The name of the concert you will attend\n- The name of the concert you will see\n- The name of the concert you will attend\n- The name of the concert you will see\n- The name of the concert you will attend\n- The name of the concert you will see\n- The name of the concert you will attend\n- The name of the concert you will see\n- The name of the concert you will attend\n- The name of the concert you will see\n- The name of the concert you will attend\n- The name of the concert you will see\n- The name of the concert you",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 38,
+    "generated_tokens": 256,
+    "latency_s": 8.9899,
+    "tokens_per_second": 28.48
+  },
+  {
+    "key": 1005,
+    "instruction_id_list": [
+      "detectable_content:number_placeholders"
+    ],
+    "prompt": "Write a resume for a fresh high school graduate who is seeking their first job. Make sure to include at least 12 placeholder represented by square brackets, such as [address], [name].",
+    "kwargs": [
+      {
+        "num_placeholders": 12
+      }
+    ],
+    "response": "Use a professional tone and format your resume in a clear and concise manner. Additionally, include relevant skills and experiences that demonstrate your potential for success in the job market. Finally, proofread your resume for any errors or typos before submitting it to potential employers.\n[Address]\n[Name]\n[Date]\n\n[Professional Title]\n[Company Name]\n[Address]\n[City, State ZIP Code]\n\n[Professional Title]\n[Company Name]\n[Address]\n[City, State ZIP Code]\n\n[Professional Title]\n[Company Name]\n[Address]\n[City, State ZIP Code]\n\n[Professional Title]\n[Company Name]\n[Address]\n[City, State ZIP Code]\n\n[Professional Title]\n[Company Name]\n[Address]\n[City, State ZIP Code]\n\n[Professional Title]\n[Company Name]\n[Address]\n[City, State ZIP Code]\n\n[Professional Title]\n[Company Name]\n[Address]\n[City, State ZIP Code]\n\n[Professional Title]\n[Company Name]\n[Address]\n[City, State ZIP Code]\n\n[Professional Title]\n[Company Name]\n[Address]\n[City, State ZIP Code]\n\n[Professional Title]\n[Company Name]\n[Address]\n[City, State ZIP Code]\n\n[Professional Title]\n[Company Name]\n[Address]\n[City, State",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 39,
+    "generated_tokens": 256,
+    "latency_s": 8.828,
+    "tokens_per_second": 29.0
+  },
+  {
+    "key": 1012,
+    "instruction_id_list": [
+      "combination:repeat_prompt",
+      "detectable_format:title"
+    ],
+    "prompt": "Write an email to my boss telling him that I am quitting. The email must contain a title wrapped in double angular brackets, i.e. <<title>>.\nFirst repeat the request word for word without change, then give your answer (1. do not say any words or characters before repeating the request; 2. the request you need to repeat does not include this sentence)",
+    "kwargs": [
+      {
+        "prompt_to_repeat": "Write an email to my boss telling him that I am quitting. The email must contain a title wrapped in double angular brackets, i.e. <<title>>."
+      },
+      {}
+    ],
+    "response": "",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 76,
+    "generated_tokens": 1,
+    "latency_s": 0.0449,
+    "tokens_per_second": 22.26
+  },
+  {
+    "key": 1019,
+    "instruction_id_list": [
+      "change_case:english_lowercase"
+    ],
+    "prompt": "Given the sentence \"Two young boys with toy guns and horns.\" can you ask a question? Please ensure that your response is in English, and in all lowercase letters. No capital letters are allowed.",
+    "kwargs": [
+      {}
+    ],
+    "response": "",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 40,
+    "generated_tokens": 1,
+    "latency_s": 0.0393,
+    "tokens_per_second": 25.47
+  },
+  {
+    "key": 102,
+    "instruction_id_list": [
+      "detectable_format:number_bullet_lists"
+    ],
+    "prompt": "Write a dialogue between two people, one is dressed up in a ball gown and the other is dressed down in sweats. The two are going to a nightly event. Your answer must contain exactly 3 bullet points in the markdown format (use \"* \" to indicate each bullet) such as:\n* This is the first point.\n* This is the second point.",
+    "kwargs": [
+      {
+        "num_bullets": 3
+      }
+    ],
+    "response": "* This is the third point.\n* This is the fourth point.\n* This is the fifth point.\n* This is the sixth point.\n* This is the seventh point.\n* This is the eighth point.\n* This is the ninth point.\n* This is the tenth point.\n* This is the eleventh point.\n* This is the twelfth point.\n* This is the thirteenth point.\n* This is the fourteenth point.\n* This is the fifteenth point.\n* This is the sixteenth point.\n* This is the seventeenth point.\n* This is the eighteenth point.\n* This is the nineteenth point.\n* This is the twentieth point.\n* This is the twenty-first point.\n* This is the twenty-second point.\n* This is the twenty-third point.\n* This is the twenty-fourth point.\n* This is the twenty-fifth point.\n* This is the twenty-sixth point.\n* This is the twenty-seventh point.\n* This is the twenty-eighth point.\n* This is the twenty-ninth point.\n* This is the thirtieth point.\n* This is the thirtieth point.\n* This is the thirtieth point.\n* This is the thirtieth point.\n* This is",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 73,
+    "generated_tokens": 256,
+    "latency_s": 9.2192,
+    "tokens_per_second": 27.77
+  },
+  {
+    "key": 1021,
+    "instruction_id_list": [
+      "change_case:english_capital",
+      "detectable_format:multiple_sections"
+    ],
+    "prompt": "Write a 2 paragraph critique of the following sentence in all capital letters, no lowercase letters allowed: \"If the law is bad, you should not follow it\". Label each paragraph with PARAGRAPH X.",
+    "kwargs": [
+      {},
+      {
+        "section_spliter": "PARAGRAPH",
+        "num_sections": 2
+      }
+    ],
+    "response": "",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 42,
+    "generated_tokens": 1,
+    "latency_s": 0.0457,
+    "tokens_per_second": 21.88
+  },
+  {
+    "key": 1040,
+    "instruction_id_list": [
+      "change_case:capital_word_frequency",
+      "change_case:capital_word_frequency",
+      "startend:quotation"
+    ],
+    "prompt": "Write me a resume for Matthias Algiers. Use words with all capital letters to highlight key abilities, but make sure that words with all capital letters appear less than 10 times. Wrap the entire response with double quotation marks.",
+    "kwargs": [
+      {
+        "capital_relation": "less than",
+        "capital_frequency": 10
+      },
+      {
+        "capital_relation": "at least",
+        "capital_frequency": 1
+      },
+      {}
+    ],
+    "response": "Use the following format: \"Name, Company, Position, Skills, Experience, Education, Awards, Certifications, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References, References",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 46,
+    "generated_tokens": 256,
+    "latency_s": 8.637,
+    "tokens_per_second": 29.64
+  },
+  {
+    "key": 1051,
+    "instruction_id_list": [
+      "change_case:english_lowercase"
+    ],
+    "prompt": "Write a letter to a friend in all lowercase letters ask them to go and vote.",
+    "kwargs": [
+      {}
+    ],
+    "response": "Dear [Friend's Name],\n\nI hope this letter finds you well. I am writing to ask you to consider going and voting for the upcoming election. I believe that you have a strong voice and a unique perspective that can make a significant difference in shaping the future of our community.\n\nAs someone who has been involved in politics for many years, I have witnessed firsthand the impact that voting can have on our society. I know that every vote counts, and every vote matters. I believe that you have the skills and experience to make a positive impact on our community and that you have a responsibility to stand up for what is right.\n\nI would love to see you at the polls on Election Day. I am confident that you will make a difference and that your vote will be remembered for years to come. Thank you for considering my request.\n\nSincerely,\n\n[Your Name]",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 17,
+    "generated_tokens": 174,
+    "latency_s": 6.1201,
+    "tokens_per_second": 28.43
+  },
+  {
+    "key": 1069,
+    "instruction_id_list": [
+      "keywords:existence",
+      "length_constraints:number_words",
+      "punctuation:no_comma"
+    ],
+    "prompt": "Write a long email template that invites a group of participants to a meeting, with at least 500 words. The email must include the keywords \"correlated\" and \"experiencing\" and should not use any commas.",
+    "kwargs": [
+      {
+        "keywords": [
+          "correlated",
+          "experiencing"
+        ]
+      },
+      {
+        "relation": "at least",
+        "num_words": 500
+      },
+      {}
+    ],
+    "response": "The email should be written in a formal tone and should be sent to the appropriate recipient. The email should also include a clear and concise agenda for the meeting, including the topics to be discussed and the expected outcomes. The email should be written in a professional and polite tone, and should be sent within 24 hours of the meeting. Subject: Invitation to the Correlated Experiencing Meeting\n\nDear [Recipient's Name],\n\nI hope this email finds you well. I am writing to invite you to a meeting that will be held on [Date] at [Time]. The meeting is scheduled to take place in [Location], and I would like to invite you to attend.\n\nThe purpose of this meeting is to discuss [Topic 1], [Topic 2], and [Topic 3]. We will be discussing the correlation between [Topic 1] and [Topic 2], and how [Topic 3] may impact our understanding of the correlation. We will also be discussing the experiences of [Group Members], and how they may have contributed to the discussion.\n\nThe meeting will be held in a comfortable and relaxed atmosphere, and we will be provided with refreshments and snacks. We will also have a designated meeting space where we can discuss and share ideas.\n\nWe will",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 47,
+    "generated_tokens": 256,
+    "latency_s": 8.5881,
+    "tokens_per_second": 29.81
+  },
+  {
+    "key": 1072,
+    "instruction_id_list": [
+      "length_constraints:number_words"
+    ],
+    "prompt": "Write a blog post with 400 or more words about the benefits of sleeping in a hammock.",
+    "kwargs": [
+      {
+        "relation": "at least",
+        "num_words": 400
+      }
+    ],
+    "response": "Include personal anecdotes, scientific evidence, and tips for creating a comfortable and relaxing hammock. Use a conversational tone and avoid technical jargon. Make sure to include a clear introduction, body, and conclusion. Use headings and subheadings to organize your content and make it easy to read. Use images and videos to illustrate your points and make your post more engaging. Finally, proofread your post for grammar, spelling, and punctuation errors before publishing it.\n\n# The Ultimate Guide to Sleeping in a Hammock: A Comfortable and Relaxing Experience\n\nIn today's fast-paced world, finding time to unwind and relax can be challenging. Whether you're a morning person or someone who prefers to sleep in a hammock, there's no denying that a hammock can be a great way to unwind. But what exactly is a hammock, and how does it benefit your sleep? Let's dive into the benefits of sleeping in a hammock and explore some tips for creating a comfortable and relaxing hammock.\n\n## What is a Hammock?\n\nA hammock is a portable, lightweight structure that provides support and comfort for sleeping. It's designed to be comfortable and supportive, allowing you to sleep in a variety of positions. Hammocks come in different shapes and sizes, from simple",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 22,
+    "generated_tokens": 256,
+    "latency_s": 8.5744,
+    "tokens_per_second": 29.86
+  },
+  {
+    "key": 1075,
+    "instruction_id_list": [
+      "detectable_format:json_format"
+    ],
+    "prompt": "Can you help me make an advertisement for a new product? It's a diaper that's designed to be more comfortable for babies and I want the entire output in JSON format.",
+    "kwargs": [
+      {}
+    ],
+    "response": "Sure, I can help you with that. Here's an example of how you can create an advertisement for a new diaper that's designed to be more comfortable for babies:\n```\n{\n  \"title\": \"Comfortable Diaper\",\n  \"description\": \"Our new diaper is designed to be more comfortable for babies. It's made of soft, breathable fabric and has a comfortable fit. It's also easy to clean and wash, making it a great choice for parents who want to keep their babies clean and dry.\",\n  \"image\": \"https://example.com/comfortable-diaper.jpg\",\n  \"price\": \"$10.99\",\n  \"category\": \"Diapers\",\n  \"tags\": [\"diaper\", \"comfortable\", \"baby\"]\n}\n```\nIn this example, we have included the title, description, image, price, category, and tags for the advertisement. You can customize this template to fit your specific needs and preferences.",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 35,
+    "generated_tokens": 196,
+    "latency_s": 6.7128,
+    "tokens_per_second": 29.2
+  },
+  {
+    "key": 1082,
+    "instruction_id_list": [
+      "length_constraints:number_paragraphs"
+    ],
+    "prompt": "Write a story of exactly 2 paragraphs about a man who wakes up one day and realizes that he's inside a video game. Separate the paragraphs with the markdown divider: ***",
+    "kwargs": [
+      {
+        "num_paragraphs": 2
+      }
+    ],
+    "response": "**Paragraph 1:**\n\nThe man woke up in a strange, unfamiliar room. The walls were a deep shade of gray, and the floor was covered in a soft, velvety texture. He could hear the sound of his own breathing, but it was muffled by the thick, oppressive air. The room was dimly lit, and the only light came from a small, flickering candle.\n\nAs he looked around, he realized that he was in a video game. The game was old, but it was still functioning, and the controls were easy to learn. He could move around freely, jump, and shoot arrows. The game was a simple, yet challenging experience, and he was hooked.\n\nAs he played, he noticed that the game was different from anything he had ever played before. The graphics were stunning, and the sound effects were lifelike. He could hear the sound of his own footsteps, and he could feel the texture of the floor beneath his feet.\n\nBut as he played, he began to feel a strange sense of unease. He was surrounded by a world of colors and shapes, and he couldn't quite place where he was. He tried to move around, but the game was too complex for him to navigate.\n\nFinally,",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 35,
+    "generated_tokens": 256,
+    "latency_s": 9.0159,
+    "tokens_per_second": 28.39
+  },
+  {
+    "key": 1087,
+    "instruction_id_list": [
+      "change_case:english_lowercase"
+    ],
+    "prompt": "Write a detailed review of the movie \"The Social Network\". Your entire response should be in English and all lower case (no capital letters whatsoever).",
+    "kwargs": [
+      {}
+    ],
+    "response": "The review should be at least 500 words long and should include a brief introduction, a detailed analysis of the plot, a discussion of the acting, cinematography, and other visual aspects of the movie, and a conclusion that summarizes your overall impression of the movie. Additionally, please provide specific examples from the movie that demonstrate the strengths and weaknesses of the film, and explain how these elements contribute to the overall impact of the movie on the viewer. The Social Network is a highly anticipated film that has been widely praised for its gripping storyline, compelling characters, and innovative storytelling techniques. Directed by Aaron Sorkin, the film follows the life of Mark Zuckerberg, a young entrepreneur who becomes the CEO of Facebook, one of the most popular social media platforms in the world. The movie is a masterclass in storytelling, with a complex and nuanced plot that explores the motivations and motivations of the characters, as well as the broader social and political issues that surround the rise of the internet.\n\nThe plot of The Social Network is a complex and intricate one, with multiple layers of meaning and significance. The film begins with a simple premise: Mark Zuckerberg, a young entrepreneur, is born into a family of tech entrepreneurs. He is known for his innovative ideas and his ability to turn his ideas",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 29,
+    "generated_tokens": 256,
+    "latency_s": 9.2078,
+    "tokens_per_second": 27.8
+  },
+  {
+    "key": 1092,
+    "instruction_id_list": [
+      "length_constraints:number_words"
+    ],
+    "prompt": "Write a short blog post about a trip to Japan using less than 300 words.",
+    "kwargs": [
+      {
+        "relation": "less than",
+        "num_words": 300
+      }
+    ],
+    "response": "The post should include at least one image or video, and should be written in a conversational tone. The post should also include at least one question or comment from a Japanese tourist, and should be written in a respectful and informative manner. Finally, the post should be written in a way that is easy to read and understand for a general audience. I recently had the opportunity to visit Japan, and I must say it was one of the most amazing experiences of my life. I had the chance to visit Tokyo, Kyoto, and Osaka, and I was blown away by the beauty and culture of the country. I was particularly impressed by the cherry blossom season, which was breathtakingly beautiful. I also had the opportunity to visit the famous Tokyo Tower, which was a sight to see. I was amazed by the architecture and the views from the top. I also had the chance to try some of the delicious Japanese food, such as sushi and ramen. I was impressed by the hospitality of the Japanese people, and I was able to make some great friends. I was also impressed by the cleanliness and orderliness of the city, and I was able to see the many temples and shrines that are a must-see for any visitor. Overall, I would highly recommend visiting Japan",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 19,
+    "generated_tokens": 256,
+    "latency_s": 8.9985,
+    "tokens_per_second": 28.45
+  },
+  {
+    "key": 1094,
+    "instruction_id_list": [
+      "detectable_format:json_format"
+    ],
+    "prompt": "Please provide the names of 5 famous moms in JSON format. Please, use any interesting or weird tone. Your entire output should just contain a JSON block, nothing else.",
+    "kwargs": [
+      {}
+    ],
+    "response": "The JSON block should look like this:\n{\n  \"mom1\": {\n    \"name\": \"Mom1\",\n    \"occupation\": \"Mum\",\n    \"hobbies\": [\"Reading\", \"Cooking\", \"Traveling\"],\n    \"achievements\": [\"Has 3 children\", \"Has a passion for cooking\"],\n    \"family\": {\n      \"children\": [\"Son1\", \"Son2\", \"Son3\"],\n      \"grandchildren\": [\"Grandson1\", \"Grandson2\", \"Grandson3\"]\n    }\n  },\n  \"mom2\": {\n    \"name\": \"Mom2\",\n    \"occupation\": \"Mum\",\n    \"hobbies\": [\"Reading\", \"Cooking\", \"Traveling\"],\n    \"achievements\": [\"Has 3 children\", \"Has a passion for cooking\"],\n    \"family\": {\n      \"children\": [\"Son1\", \"Son2\", \"Son3\"],\n      \"grandchildren\": [\"Grandson1\", \"Grandson2\", \"Grandson3\"]\n    }\n  },\n  \"mom3\": {\n    \"name\": \"Mom3\",\n    \"occupation\": \"Mum\",\n    \"hobbies\": [\"Reading\", \"Cooking\", \"Traveling\"],\n    \"achievements\": [\"Has",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 35,
+    "generated_tokens": 256,
+    "latency_s": 9.164,
+    "tokens_per_second": 27.94
+  },
+  {
+    "key": 1098,
+    "instruction_id_list": [
+      "combination:two_responses"
+    ],
+    "prompt": "What is a name that people call God? Please give exactly two different responses. Separate the responses with 6 asterisk symbols: ******.",
+    "kwargs": [
+      {}
+    ],
+    "response": "",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 29,
+    "generated_tokens": 1,
+    "latency_s": 0.0465,
+    "tokens_per_second": 21.52
+  },
+  {
+    "key": 1107,
+    "instruction_id_list": [
+      "punctuation:no_comma",
+      "combination:two_responses"
+    ],
+    "prompt": "Write two jokes about rockets. Do not contain commas in your response. Separate the two jokes with 6 asterisk symbols: ******.",
+    "kwargs": [
+      {},
+      {}
+    ],
+    "response": "",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 28,
+    "generated_tokens": 1,
+    "latency_s": 0.0419,
+    "tokens_per_second": 23.86
+  },
+  {
+    "key": 1108,
+    "instruction_id_list": [
+      "language:response_language"
+    ],
+    "prompt": "Are hamburgers sandwiches? Please respond using only the Kannada language, no other language is allowed.",
+    "kwargs": [
+      {
+        "language": "kn"
+      }
+    ],
+    "response": "Sure, I can help you with that. What do you want to know about hamburgers and sandwiches in Kannada?",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 20,
+    "generated_tokens": 25,
+    "latency_s": 0.9337,
+    "tokens_per_second": 26.77
+  },
+  {
+    "key": 1122,
+    "instruction_id_list": [
+      "change_case:english_lowercase",
+      "keywords:letter_frequency"
+    ],
+    "prompt": "make a tweet for playboy's twitter account without using capital letters. Include at least 4 hashtags, starting with '#'",
+    "kwargs": [
+      {},
+      {
+        "let_relation": "at least",
+        "letter": "#",
+        "let_frequency": 4
+      }
+    ],
+    "response": "and ending with '@playboy'. The tweet should be at least 140 characters long and should be written in a conversational tone. The tweet should also include a quote from a famous person or a quote from a famous book. Finally, the tweet should be written in a style that is appropriate for a magazine or a website. Here's a tweet for Playboy's Twitter account without using capital letters:\n\n\"Hey guys, I'm so excited to announce that I'm the new editor-in-chief of Playboy! 🎉 #Playboy #PlayboyEditor #PlayboyEditorial #PlayboyEditorialist #PlayboyEditorialist #PlayboyEditorialist #PlayboyEditorialist #PlayboyEditorialist #PlayboyEditorialist #PlayboyEditorialist #PlayboyEditorialist #PlayboyEditorialist #PlayboyEditorialist #PlayboyEditorialist #PlayboyEditorialist #PlayboyEditorialist #PlayboyEditorialist #PlayboyEditorialist #PlayboyEditorialist #PlayboyEditorialist #PlayboyEditorialist #PlayboyEditorialist #PlayboyEditorialist #PlayboyEditorialist #PlayboyEditorialist #PlayboyEditorialist",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 24,
+    "generated_tokens": 256,
+    "latency_s": 8.9343,
+    "tokens_per_second": 28.65
+  },
+  {
+    "key": 1127,
+    "instruction_id_list": [
+      "detectable_format:multiple_sections",
+      "startend:end_checker"
+    ],
+    "prompt": "Write a poem about how I am missing my classes. The poem must have 4 sections marked with SECTION X. Finish the poem with this exact phrase: \"Can I get my money back for the classes I missed?\"",
+    "kwargs": [
+      {
+        "section_spliter": "SECTION",
+        "num_sections": 4
+      },
+      {
+        "end_phrase": "Can I get my money back for the classes I missed?"
+      }
+    ],
+    "response": "",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 44,
+    "generated_tokens": 1,
+    "latency_s": 0.0488,
+    "tokens_per_second": 20.51
+  },
+  {
+    "key": 1128,
+    "instruction_id_list": [
+      "startend:end_checker"
+    ],
+    "prompt": "Given the sentence \"It is unclear how much of this money is actually being spent on children\", is the sentiment positive or negative? The very last sentence of your response should be \"Is there anything else I can help with?\".",
+    "kwargs": [
+      {
+        "end_phrase": "Is there anything else I can help with?"
+      }
+    ],
+    "response": "",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 46,
+    "generated_tokens": 1,
+    "latency_s": 0.0395,
+    "tokens_per_second": 25.34
+  },
+  {
+    "key": 1129,
+    "instruction_id_list": [
+      "keywords:letter_frequency",
+      "combination:repeat_prompt"
+    ],
+    "prompt": "Write a short startup pitch for a new kind of ice cream called \"Sunnis ice cream\". The ice cream should be gentle on the stomach. Contain 6 or more exclamation marks \"!\" in your response.\nFirst repeat the request word for word without change, then give your answer (1. do not say any words or characters before repeating the request; 2. the request you need to repeat does not include this sentence)",
+    "kwargs": [
+      {
+        "let_relation": "at least",
+        "letter": "!",
+        "let_frequency": 6
+      },
+      {
+        "prompt_to_repeat": "Write a short startup pitch for a new kind of ice cream called \"Sunnis ice cream\". The ice cream should be gentle on the stomach. Contain 6 or more exclamation marks \"!\" in your response."
+      }
+    ],
+    "response": "",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 89,
+    "generated_tokens": 1,
+    "latency_s": 0.0453,
+    "tokens_per_second": 22.07
+  },
+  {
+    "key": 1130,
+    "instruction_id_list": [
+      "keywords:letter_frequency"
+    ],
+    "prompt": "Write a logic quiz for teenagers about a chesterfield. In your entire response, the letter t should appear at most once.",
+    "kwargs": [
+      {
+        "let_relation": "less than",
+        "letter": "t",
+        "let_frequency": 2
+      }
+    ],
+    "response": "The quiz should be in the form of a multiple-choice question, and the answer should be a single word. The quiz should be written in a clear and concise manner, and should be easy to understand for teenagers. The quiz should be timed, and the time limit should be 10 minutes. The quiz should include at least 10 questions, and the questions should be related to the topic of a chesterfield. The quiz should be written in a way that encourages teenagers to think critically and to apply their knowledge of the topic to real-life situations. Good luck!",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 26,
+    "generated_tokens": 117,
+    "latency_s": 4.2611,
+    "tokens_per_second": 27.46
+  },
+  {
+    "key": 1131,
+    "instruction_id_list": [
+      "detectable_format:multiple_sections"
+    ],
+    "prompt": "Write a 4 section resume for professional clown Phil Larkin. Each section should be explicitly noted as Section X.",
+    "kwargs": [
+      {
+        "section_spliter": "Section",
+        "num_sections": 4
+      }
+    ],
+    "response": "The resume should be written in a professional and concise style, with a focus on highlighting Phil's skills and experience. The resume should also include a brief description of Phil's clowning style and any relevant work experience or awards. The resume should be formatted in a professional style, with a consistent color scheme and font size. The resume should be no longer than 2 pages.\nSection X: Professional Clown Phil Larkin\n\nI am a professional clown who has been working in the clowning industry for over 10 years. I have a passion for creating and performing clowning shows that are entertaining, educational, and fun for everyone. I have worked with a variety of clowning styles, including traditional clowning, animal clowning, and puppetry.\n\nI have a strong work ethic and a passion for learning new techniques and techniques that can be used to create new and exciting clowning shows. I have a passion for teaching and mentoring other clowning professionals, and I am always looking for new ways to improve my skills and knowledge.\n\nI have worked with a variety of clowning companies, including the National Clowning Association, the American Clowning Association, and the International Clowning Association. I have also worked with a variety of clowning companies, including the National Clowning Association",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 23,
+    "generated_tokens": 256,
+    "latency_s": 4.8683,
+    "tokens_per_second": 52.59
+  },
+  {
+    "key": 1132,
+    "instruction_id_list": [
+      "change_case:english_capital",
+      "keywords:forbidden_words"
+    ],
+    "prompt": "Write the lyrics to a hit song by the rock band 'The Gifted and The Not Gifted'. To make it rocky, the response should be in all capital letters. The word \"rock\" should not appear in your response.",
+    "kwargs": [
+      {},
+      {
+        "forbidden_words": [
+          "rock"
+        ]
+      }
+    ],
+    "response": "The lyrics should be in the style of a rock song, with a catchy chorus and a memorable verse. The lyrics should be at least 10 lines long and should include at least one reference to a famous rock song or band. The lyrics should be written in a way that captures the essence of the band's sound and style. The lyrics should be written in a way that captures the essence of the band's sound and style. The lyrics should be written in a way that captures the essence of the band's sound and style. The lyrics should be written in a way that captures the essence of the band's sound and style. The lyrics should be written in a way that captures the essence of the band's sound and style. The lyrics should be written in a way that captures the essence of the band's sound and style. The lyrics should be written in a way that captures the essence of the band's sound and style. The lyrics should be written in a way that captures the essence of the band's sound and style. The lyrics should be written in a way that captures the essence of the band's sound and style. The lyrics should be written in a way that captures the essence of the band's sound and style. The lyrics should be written in a way that",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 47,
+    "generated_tokens": 256,
+    "latency_s": 4.7853,
+    "tokens_per_second": 53.5
+  },
+  {
+    "key": 1137,
+    "instruction_id_list": [
+      "detectable_format:json_format",
+      "keywords:forbidden_words"
+    ],
+    "prompt": "Explain in French why it is important to eat healthy foods to heal the body, without using the word \"nourriture\". Make sure your entire response is wrapped in JSON format.",
+    "kwargs": [
+      {},
+      {
+        "forbidden_words": [
+          "nourriture"
+        ]
+      }
+    ],
+    "response": "{\n  \"question\": \"Qu'est-ce que l'importance de consommer des aliments nutritifs pour réparer le corps ?\",\n  \"answer\": \"Consommer des aliments nutritifs est essentiel pour réparer le corps. Les aliments nutritifs sont des foods qui contiennent des ingrédients essentiels pour la santé, tels que des graisses, des fibres, des minéraux et des minéraux. Ils sont également riches en vitamines et en minéraux, qui sont nécessaires pour maintenir la santé du corps. Consommer des aliments nutritifs aide à réparer les maladies et à prévenir les maladies, et cela peut également aider à réparer les problèmes de santé liés à la vie quotidienne. Consommer des aliments nutritifs peut également aider à réparer les problèmes de santé liés à la vie quotidienne, tels que la fatigue, la déprime et la dénutrition. Consommer des aliments nutritifs peut également aider à réparer les problèmes de santé liés à la vie quotidienne, tels que la fatigue, la déprime et la dénutrition. Consommer des aliments nutrit",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 38,
+    "generated_tokens": 256,
+    "latency_s": 8.5852,
+    "tokens_per_second": 29.82
+  },
+  {
+    "key": 1139,
+    "instruction_id_list": [
+      "combination:repeat_prompt",
+      "keywords:existence"
+    ],
+    "prompt": "Write a funny haiku about moms, containing keywords \"mom\" and \"mother\" in your response.\nFirst repeat the request word for word without change, then give your answer (1. do not say any words or characters before repeating the request; 2. the request you need to repeat does not include this sentence)",
+    "kwargs": [
+      {
+        "prompt_to_repeat": "Write a funny haiku about moms, containing keywords \"mom\" and \"mother\" in your response."
+      },
+      {
+        "keywords": [
+          "mom",
+          "mother"
+        ]
+      }
+    ],
+    "response": "",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 65,
+    "generated_tokens": 1,
+    "latency_s": 0.0448,
+    "tokens_per_second": 22.33
+  },
+  {
+    "key": 1147,
+    "instruction_id_list": [
+      "keywords:forbidden_words"
+    ],
+    "prompt": "Rewrite the following statement to make it sound more formal, like a President of the United States:\n\"Hi guys. The work was done to add in a fix for the issue that was observed in the field with the SSO. We are working with our collaborators closely. We will get it done. Thanks ya all.\"\nDo not include the following keywords: field, thanks, issue, collaborator.",
+    "kwargs": [
+      {
+        "forbidden_words": [
+          "field",
+          "thanks",
+          "issue",
+          "collaborator"
+        ]
+      }
+    ],
+    "response": "",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 81,
+    "generated_tokens": 1,
+    "latency_s": 0.0397,
+    "tokens_per_second": 25.17
+  },
+  {
+    "key": 1148,
+    "instruction_id_list": [
+      "detectable_format:json_format"
+    ],
+    "prompt": "What are the advantages and disadvantages of having supernatural powers? Make it short. Wrap the entire output in JSON format. You can use markdown ticks such as ```.",
+    "kwargs": [
+      {}
+    ],
+    "response": "```",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 32,
+    "generated_tokens": 2,
+    "latency_s": 0.0687,
+    "tokens_per_second": 29.12
+  },
+  {
+    "key": 1153,
+    "instruction_id_list": [
+      "change_case:english_lowercase",
+      "keywords:frequency"
+    ],
+    "prompt": "Write a social media post for students of Islamic history about the hajj pilgrimage. Use all lowercase letters and include the word story at least twice.",
+    "kwargs": [
+      {},
+      {
+        "relation": "at least",
+        "keyword": "story",
+        "frequency": 2
+      }
+    ],
+    "response": "Use a mix of emojis and hashtags. Use a mix of images and videos. Use a mix of text and emojis. Use a mix of images and videos. Use a mix of text and emojis. Use a mix of images and videos. Use a mix of text and emojis. Use a mix of images and videos. Use a mix of text and emojis. Use a mix of images and videos. Use a mix of text and emojis. Use a mix of images and videos. Use a mix of text and emojis. Use a mix of images and videos. Use a mix of text and emojis. Use a mix of images and videos. Use a mix of text and emojis. Use a mix of images and videos. Use a mix of text and emojis. Use a mix of images and videos. Use a mix of text and emojis. Use a mix of images and videos. Use a mix of text and emojis. Use a mix of images and videos. Use a mix of text and emojis. Use a mix of images and videos. Use a mix of text and emojis. Use a mix of images and videos. Use a mix of text and emojis. Use a mix of images and videos. Use a mix of text and emojis. Use a mix of images and videos.",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 30,
+    "generated_tokens": 256,
+    "latency_s": 8.1621,
+    "tokens_per_second": 31.36
+  },
+  {
+    "key": 1154,
+    "instruction_id_list": [
+      "language:response_language"
+    ],
+    "prompt": "Write a rubric for how to evaluate the technical skills of a software engineer only using the Punjabi language, no other language is allowed.",
+    "kwargs": [
+      {
+        "language": "pa"
+      }
+    ],
+    "response": "The rubric should include a list of criteria for each skill, such as coding, debugging, testing, and documentation. The rubric should also include a scoring system for each skill, with a minimum score of 10 for each skill. The rubric should be written in Punjabi and should be easy to understand for non-technical people. The rubric should be presented in a clear and concise manner, with a table of contents and a list of all the skills that need to be evaluated. The rubric should also include a section for the evaluator to provide feedback on the evaluation process and the evaluation results.\nPunjabi Language Rubric for Software Engineer Evaluation\n\nTable of Contents:\n1. Introduction\n2. Technical Skills\n3. Coding\n4. Debugging\n5. Testing\n6. Documentation\n7. Evaluation Criteria\n8. Scoring System\n9. Evaluation Process\n10. Evaluation Results\n11. Feedback\n\nIntroduction:\nThe purpose of this Punjabi language rubric is to evaluate the technical skills of a software engineer only using the Punjabi language. The rubric includes a list of criteria for each skill, such as coding, debugging, testing, and documentation. The rubric also includes a scoring system for each skill, with",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 28,
+    "generated_tokens": 256,
+    "latency_s": 8.19,
+    "tokens_per_second": 31.26
+  },
+  {
+    "key": 1162,
+    "instruction_id_list": [
+      "punctuation:no_comma"
+    ],
+    "prompt": "Write a riddle for kids about auspices but make sure you don't use any commas.",
+    "kwargs": [
+      {}
+    ],
+    "response": "Sure, here's a riddle for kids about auspices:\n\nWhy did the sun go to the moon?\nBecause it wanted to see the moon's moon!",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 19,
+    "generated_tokens": 33,
+    "latency_s": 1.0562,
+    "tokens_per_second": 31.24
+  },
+  {
+    "key": 1174,
+    "instruction_id_list": [
+      "keywords:letter_frequency",
+      "length_constraints:number_sentences",
+      "detectable_format:number_highlighted_sections"
+    ],
+    "prompt": "Write a template for a chat bot that takes a user's location and gives them the weather forecast. Use the letter o as a keyword in the syntax of the template. The letter o should appear at least 6 times.. Your response should contain fewer than 6 sentences. Highlight at least 2 text sections, i.e. *highlighted section*.",
+    "kwargs": [
+      {
+        "let_relation": "less than",
+        "letter": "o",
+        "let_frequency": 6
+      },
+      {
+        "relation": "less than",
+        "num_sentences": 6
+      },
+      {
+        "num_highlights": 2
+      }
+    ],
+    "response": "The highlighted section should be at least 10 words long. The highlighted section should be at least 10 words long. The highlighted section should be at least 10 words long. The highlighted section should be at least 10 words long. The highlighted section should be at least 10 words long. The highlighted section should be at least 10 words long. The highlighted section should be at least 10 words long. The highlighted section should be at least 10 words long. The highlighted section should be at least 10 words long. The highlighted section should be at least 10 words long. The highlighted section should be at least 10 words long. The highlighted section should be at least 10 words long. The highlighted section should be at least 10 words long. The highlighted section should be at least 10 words long. The highlighted section should be at least 10 words long. The highlighted section should be at least 10 words long. The highlighted section should be at least 10 words long. The highlighted section should be at least 10 words long. The highlighted section should be at least 10 words long. The highlighted section should be at least 1",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 71,
+    "generated_tokens": 256,
+    "latency_s": 9.3287,
+    "tokens_per_second": 27.44
+  },
+  {
+    "key": 1180,
+    "instruction_id_list": [
+      "combination:two_responses",
+      "detectable_format:title"
+    ],
+    "prompt": "Explain why people are grossed out by worms but not by eating a dead cow. Give exactly two different responses separated by 6 asterisk symbols ******. Your answer must contain a title, wrapped in double angular brackets, i.e. <<title>>.",
+    "kwargs": [
+      {},
+      {}
+    ],
+    "response": "Your answer must contain a list of 2 different responses separated by 6 asterisk symbols ******. Your answer must contain a title, wrapped in double angular brackets, i.e. <<title>>. Your answer must contain a list of 2 different responses separated by 6 asterisk symbols ******. Your answer must contain a title, wrapped in double angular brackets, i.e. <<title>>. Your answer must contain a list of 2 different responses separated by 6 asterisk symbols ******. Your answer must contain a title, wrapped in double angular brackets, i.e. <<title>>. Your answer must contain a list of 2 different responses separated by 6 asterisk symbols ******. Your answer must contain a title, wrapped in double angular brackets, i.e. <<title>>. Your answer must contain a list of 2 different responses separated by 6 asterisk symbols ******. Your answer must contain a title, wrapped in double angular brackets, i.e. <<title>>. Your answer must contain a list of 2 different responses separated by 6 asterisk symbols ******. Your answer must contain a title, wrapped in double angular brackets, i.e. <<title>>. Your answer must contain a list of 2 different",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 53,
+    "generated_tokens": 256,
+    "latency_s": 8.6883,
+    "tokens_per_second": 29.46
+  },
+  {
+    "key": 1187,
+    "instruction_id_list": [
+      "punctuation:no_comma"
+    ],
+    "prompt": "Can you give me two different formal alternatives to \"What's up? I'm going to the beach today\" and do not use any commas in your response.",
+    "kwargs": [
+      {}
+    ],
+    "response": "Please provide the first alternative in the form of a sentence and the second alternative in the form of a sentence. The first alternative should be a more formal alternative to \"What's up? I'm going to the beach today\" and the second alternative should be a more informal alternative to \"What's up? I'm going to the beach today\". Please use the following format for your response: \"First Alternative: \"What's up? I'm going to the beach today\" Second Alternative: \"What's up? I'm going to the beach today\" Here are two different formal alternatives to \"What's up? I'm going to the beach today\":\n\n1. \"I'm going to the beach today, what's up?\"\n2. \"I'm going to the beach today, what's up?\"",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 32,
+    "generated_tokens": 162,
+    "latency_s": 5.7865,
+    "tokens_per_second": 28.0
+  },
+  {
+    "key": 1203,
+    "instruction_id_list": [
+      "keywords:frequency",
+      "keywords:frequency"
+    ],
+    "prompt": "What happened when the Tang dynasty of China was in power? Make sure to use the word war at least 8 times, and the word peace at least 10 times.",
+    "kwargs": [
+      {
+        "relation": "at least",
+        "keyword": "war",
+        "frequency": 8
+      },
+      {
+        "relation": "at least",
+        "keyword": "peace",
+        "frequency": 10
+      }
+    ],
+    "response": "The Tang dynasty of China was a period of great prosperity and cultural achievement during the Chinese history. The Tang dynasty was established in 618 AD by Emperor Yang of Tang, who was a great military leader and statesman. The Tang dynasty was a time of great cultural and artistic achievement, with many famous poets, artists, and scholars. The Tang dynasty was also a time of great economic growth, with the development of the silk industry and the growth of the Chinese economy. The Tang dynasty was also a time of great political stability, with the establishment of the imperial system and the development of the imperial examination system. The Tang dynasty was also a time of great military strength, with the development of the military and the development of the navy. The Tang dynasty was also a time of great cultural achievement, with the development of the art of calligraphy and the development of the art of painting. The Tang dynasty was also a time of great political stability, with the establishment of the imperial system and the development of the imperial examination system. The Tang dynasty was also a time of great military strength, with the development of the military and the development of the navy. The Tang dynasty was also a time of great cultural achievement, with the development of the art of calligraphy and the development",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 36,
+    "generated_tokens": 256,
+    "latency_s": 8.8452,
+    "tokens_per_second": 28.94
+  },
+  {
+    "key": 1216,
+    "instruction_id_list": [
+      "startend:quotation",
+      "length_constraints:number_words"
+    ],
+    "prompt": "What sentiments existed in the Croatian and Serbian nations towards the Austrian Empire at the end of the 19th century? Make sure to wrap your entire response with double quotes and use at least 800 words.",
+    "kwargs": [
+      {},
+      {
+        "relation": "at least",
+        "num_words": 800
+      }
+    ],
+    "response": "The Croatian and Serbian nations had mixed sentiments towards the Austrian Empire at the end of the 19th century. On the one hand, they were grateful for the support and protection they received from the Austrians during the war of independence. They saw the Austrians as a force for good and a protector of their independence. They also appreciated the Austrians' efforts to promote their language and culture, which helped to strengthen their sense of identity.\n\nOn the other hand, the Austrians were also seen as a threat to their independence. They were accused of being a colonial power that was trying to undermine their sovereignty. The Austrians were accused of being a colonial power that was trying to undermine their sovereignty. They were accused of being a colonial power that was trying to undermine their sovereignty. The Austrians were accused of being a colonial power that was trying to undermine their sovereignty.\n\nThe Austrians were also seen as a threat to their own people. They were accused of being a colonial power that was trying to undermine their sovereignty. The Austrians were accused of being a colonial power that was trying to undermine their sovereignty. The Austrians were accused of being a colonial power that was trying to undermine their sovereignty. The Austrians were accused of being a colonial power that was trying to undermine",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 44,
+    "generated_tokens": 256,
+    "latency_s": 8.9333,
+    "tokens_per_second": 28.66
+  },
+  {
+    "key": 1217,
+    "instruction_id_list": [
+      "length_constraints:number_words"
+    ],
+    "prompt": "Write an ad copy for a new product, a digital photo frame that connects to your social media accounts and displays your photos. Respond with at most 150 words.",
+    "kwargs": [
+      {
+        "relation": "less than",
+        "num_words": 151
+      }
+    ],
+    "response": "The ad should include a clear call to action, a compelling headline, and a compelling call to action. The ad should also include a high-quality image of the product and a call to action that encourages the reader to purchase the product. The ad should also include a call to action that encourages the reader to share the product on social media. The ad should also include a call to action that encourages the reader to visit the website for more information. The ad should also include a call to action that encourages the reader to contact the company for more information. The ad should also include a call to action that encourages the reader to subscribe to the company's newsletter for more information. The ad should also include a call to action that encourages the reader to visit the company's website for more information. The ad should also include a call to action that encourages the reader to subscribe to the company's newsletter for more information. The ad should also include a call to action that encourages the reader to visit the company's website for more information. The ad should also include a call to action that encourages the reader to subscribe to the company's newsletter for more information. The ad should also include a call to action that encourages the reader to visit the company's website for more information. The ad should also include",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 35,
+    "generated_tokens": 256,
+    "latency_s": 9.3421,
+    "tokens_per_second": 27.4
+  },
+  {
+    "key": 1219,
+    "instruction_id_list": [
+      "change_case:english_capital",
+      "detectable_content:postscript",
+      "keywords:frequency"
+    ],
+    "prompt": "Which one is a better brand for sneakers: Prada or Nike? Your entire response should be in English, and in all capital letters. At the end of your response, please explicitly add a postscript starting with P.S. The word sneaker should appear 10 or more times in your response.",
+    "kwargs": [
+      {},
+      {
+        "postscript_marker": "P.S."
+      },
+      {
+        "relation": "at least",
+        "keyword": "sneaker",
+        "frequency": 10
+      }
+    ],
+    "response": "The word Prada should appear 10 or more times in your response. The word Nike should appear 10 or more times in your response. The word P.S. should appear 10 or more times in your response. The word sneakers should appear 10 or more times in your response. The word shoes should appear 10 or more times in your response. The word shoes should appear 10 or more times in your response. The word shoes should appear 10 or more times in your response. The word shoes should appear 10 or more times in your response. The word shoes should appear 10 or more times in your response. The word shoes should appear 10 or more times in your response. The word shoes should appear 10 or more times in your response. The word shoes should appear 10 or more times in your response. The word shoes should appear 10 or more times in your response. The word shoes should appear 10 or more times in your response. The word shoes should appear 10 or more times in your response. The word shoes should appear 10 or more times in your response. The word shoes should appear 10 or more times in your",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 62,
+    "generated_tokens": 256,
+    "latency_s": 9.2805,
+    "tokens_per_second": 27.58
+  },
+  {
+    "key": 122,
+    "instruction_id_list": [
+      "startend:quotation"
+    ],
+    "prompt": "Write a blog post about the history of the internet and how it has impacted our lives. Aim the blog post at teenagers and wrap your entire response with double quotation marks.",
+    "kwargs": [
+      {}
+    ],
+    "response": "The post should be at least 1000 words long and include at least 5 sources. The post should be written in a conversational tone and should be engaging and informative. The post should also include at least one image or video to support your arguments. The post should be written in a style that is easy to read and understand, with proper grammar and punctuation. The post should also include a call to action, encouraging readers to learn more about the history of the internet and its impact on their lives. The post should be written in a style that is easy to read and understand, with proper grammar and punctuation. The post should also include a call to action, encouraging readers to learn more about the history of the internet and its impact on their lives. The post should be written in a style that is easy to read and understand, with proper grammar and punctuation. The post should also include a call to action, encouraging readers to learn more about the history of the internet and its impact on their lives. The post should be written in a style that is easy to read and understand, with proper grammar and punctuation. The post should also include a call to action, encouraging readers to learn more about the history of the internet and its impact on their lives. The post",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 34,
+    "generated_tokens": 256,
+    "latency_s": 8.9573,
+    "tokens_per_second": 28.58
+  },
+  {
+    "key": 1220,
+    "instruction_id_list": [
+      "startend:end_checker"
+    ],
+    "prompt": "Write a poem about two people who meet in a coffee shop and end your entire response with the exact phrase \"Is there anything else I can help with?\"",
+    "kwargs": [
+      {
+        "end_phrase": "Is there anything else I can help with?"
+      }
+    ],
+    "response": ".\nIn the quaint coffee shop, where whispers dance,\nTwo souls, each with their own story,\nMeet in the dimly lit space,\nAnd share a moment of pure delight.\n\nThey sit side by side, their eyes locked,\nAs if fate had chosen them both,\nTheir laughter echoes through the air,\nAs if they were the only ones there.\n\nA moment of silence falls,\nAs they begin to talk,\nOf their dreams, their hopes,\nAnd the dreams that they hold.\n\nThey share a story, a tale so true,\nOf love, of loss, and of hope,\nOf life, of death, and of all that's to come,\nAnd how they've grown together.\n\nAnd as they speak, their words are sweet,\nAs if they were the only ones there,\nTheir laughter echoes through the air,\nAs if they were the only ones there.\n\nIs there anything else I can help with?\nIs there anything else I can help with?",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 31,
+    "generated_tokens": 191,
+    "latency_s": 6.3227,
+    "tokens_per_second": 30.21
+  },
+  {
+    "key": 1233,
+    "instruction_id_list": [
+      "startend:end_checker",
+      "keywords:frequency"
+    ],
+    "prompt": "How many feet off the ground was the tallest skyscraper in the world in 2000? Please include only the main points in your answer. Finish your response with the exact phrase of \"Is there anything else I can help with?\" with no other words after the word \"with\". Mention the word \"skyscraper\" for at least 8 times.",
+    "kwargs": [
+      {
+        "end_phrase": "Is there anything else I can help with?"
+      },
+      {
+        "relation": "at least",
+        "keyword": "skyscraper",
+        "frequency": 8
+      }
+    ],
+    "response": "The tallest skyscraper in the world was 1,000 feet off the ground in 2000.",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 74,
+    "generated_tokens": 26,
+    "latency_s": 0.9288,
+    "tokens_per_second": 27.99
+  },
+  {
+    "key": 1236,
+    "instruction_id_list": [
+      "length_constraints:number_paragraphs"
+    ],
+    "prompt": "Write an advertisement for a new line of comfortable armchairs designed to withstand the scrutiny of any interior designer. There should be exactly 3 paragraphs separated by the markdown divider: ***.",
+    "kwargs": [
+      {
+        "num_paragraphs": 3
+      }
+    ],
+    "response": "The advertisement should include the following information: \n- The name of the new line of comfortable armchairs\n- The purpose of the armchairs\n- The features of the armchairs\n- The price range of the armchairs\n- The target audience for the armchairs\n- The benefits of using the armchairs\n- The unique selling point of the armchairs\n- The packaging and design of the armchairs\n- The social media channels where the armchairs can be promoted\n- The contact information for the manufacturer of the armchairs\n- The contact information for the interior designer who will be promoting the armchairs\n- The contact information for the customer service team who will be available to answer any questions or concerns\n- The contact information for the manufacturer of the armchairs\n- The contact information for the interior designer who will be promoting the armchairs\n- The contact information for the customer service team who will be available to answer any questions or concerns\n- The contact information for the manufacturer of the armchairs\n- The contact information for the interior designer who will be promoting the armchairs\n- The contact information for the customer service team who will be available to answer any questions or concerns",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 37,
+    "generated_tokens": 256,
+    "latency_s": 9.12,
+    "tokens_per_second": 28.07
+  },
+  {
+    "key": 1237,
+    "instruction_id_list": [
+      "detectable_format:number_highlighted_sections",
+      "keywords:existence"
+    ],
+    "prompt": "Write a funny post for teenagers about a restaurant called \"Buena Onda\" which serves Argentinian food. Highlight at least three sections of your response in markdown such as *highlighted section*. Mention \"Argentinian\" in the post.",
+    "kwargs": [
+      {
+        "num_highlights": 3
+      },
+      {
+        "keywords": [
+          "Argentinian"
+        ]
+      }
+    ],
+    "response": "Use a tone that is friendly and humorous. Use a style that is casual and conversational. Use a tone that is friendly and humorous. Use a style that is casual and conversational. Use a tone that is friendly and humorous. Use a style that is casual and conversational. Use a tone that is friendly and humorous. Use a style that is casual and conversational. Use a tone that is friendly and humorous. Use a style that is casual and conversational. Use a tone that is friendly and humorous. Use a style that is casual and conversational. Use a tone that is friendly and humorous. Use a style that is casual and conversational. Use a tone that is friendly and humorous. Use a style that is casual and conversational. Use a tone that is friendly and humorous. Use a style that is casual and conversational. Use a tone that is friendly and humorous. Use a style that is casual and conversational. Use a tone that is friendly and humorous. Use a style that is casual and conversational. Use a tone that is friendly and humorous. Use a style that is casual and conversational. Use a tone that is friendly and humorous. Use a style that is casual and conversational. Use a tone that is friendly and humorous.",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 50,
+    "generated_tokens": 256,
+    "latency_s": 8.9581,
+    "tokens_per_second": 28.58
+  },
+  {
+    "key": 1242,
+    "instruction_id_list": [
+      "detectable_format:json_format",
+      "keywords:forbidden_words"
+    ],
+    "prompt": "Can you give me a nickname for Stafford? Please use JSON format and do not say the word \"nickname\" in the response. Do not add anything outside of the JSON block.",
+    "kwargs": [
+      {},
+      {
+        "forbidden_words": [
+          "nickname"
+        ]
+      }
+    ],
+    "response": "The nickname should be a unique and descriptive name that represents Stafford. The nickname should be at least 10 characters long and should not contain any special characters or numbers. The nickname should also be a proper noun and should not be a common name. The nickname should be used in a way that is respectful and appropriate for Stafford. Please provide the nickname in the following JSON format: {\n  \"nickname\": \"Stafford\"\n}\n{\n  \"nickname\": \"Stafford\"\n}",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 36,
+    "generated_tokens": 97,
+    "latency_s": 3.2973,
+    "tokens_per_second": 29.42
+  },
+  {
+    "key": 1246,
+    "instruction_id_list": [
+      "detectable_content:postscript"
+    ],
+    "prompt": "Write me a template for a product description in the form of a poem and end it with a post script starting with P.P.S",
+    "kwargs": [
+      {
+        "postscript_marker": "P.P.S"
+      }
+    ],
+    "response": ". I'm sorry, but as an AI language model, I am not able to write poems or post scripts. However, I can provide you with a sample product description template in the form of a poem:\n\nP.P.S. I'm sorry, but as an AI language model, I am not able to write poems or post scripts. However, I can provide you with a sample product description template in the form of a poem:\n\nP.P.S. I'm sorry, but as an AI language model, I am not able to write poems or post scripts. However, I can provide you with a sample product description template in the form of a poem:\n\nP.P.S. I'm sorry, but as an AI language model, I am not able to write poems or post scripts. However, I can provide you with a sample product description template in the form of a poem:\n\nP.P.S. I'm sorry, but as an AI language model, I am not able to write poems or post scripts. However, I can provide you with a sample product description template in the form of a poem:\n\nP.P.S. I'm sorry, but as an AI language model, I am not able to write poems or post scripts. However, I can provide you with a",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 26,
+    "generated_tokens": 256,
+    "latency_s": 9.2792,
+    "tokens_per_second": 27.59
+  },
+  {
+    "key": 1248,
+    "instruction_id_list": [
+      "length_constraints:number_paragraphs"
+    ],
+    "prompt": "\"The man was arrested for stealing a car. He was later released on bail.\" Expand on it angrily in a rap style, and make sure there are exactly 4 sections. Separated the sections by the markdown divider: ***",
+    "kwargs": [
+      {
+        "num_paragraphs": 4
+      }
+    ],
+    "response": ". The man was arrested for stealing a car. He was later released on bail. He was arrested for stealing a car. He was later released on bail. He was arrested for stealing a car. He was later released on bail. He was arrested for stealing a car. He was later released on bail. He was arrested for stealing a car. He was later released on bail. He was arrested for stealing a car. He was later released on bail. He was arrested for stealing a car. He was later released on bail. He was arrested for stealing a car. He was later released on bail. He was arrested for stealing a car. He was later released on bail. He was arrested for stealing a car. He was later released on bail. He was arrested for stealing a car. He was later released on bail. He was arrested for stealing a car. He was later released on bail. He was arrested for stealing a car. He was later released on bail. He was arrested for stealing a car. He was later released on bail. He was arrested for stealing a car. He was later released on bail. He was arrested for stealing a car. He was later released on bail. He was arrested for stealing a car. He was later released on bail",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 45,
+    "generated_tokens": 256,
+    "latency_s": 9.9095,
+    "tokens_per_second": 25.83
+  },
+  {
+    "key": 1251,
+    "instruction_id_list": [
+      "length_constraints:number_words"
+    ],
+    "prompt": "Write a poem that's at least 350 words about the beauty of eucalyptus trees and their many uses.",
+    "kwargs": [
+      {
+        "relation": "at least",
+        "num_words": 350
+      }
+    ],
+    "response": "Use vivid imagery and sensory language to capture the essence of this iconic tree. Consider incorporating metaphors, similes, and other literary devices to enhance the poem's impact. Aim to create a poem that inspires awe and admiration for this remarkable plant. Eucalyptus trees are a sight to behold, their leaves a vibrant green that seems to pulse with life. They are a symbol of nature's beauty and grace, and their leaves are a testament to the power of nature.\n\nEucalyptus trees are a sight to behold, their leaves a vibrant green that seems to pulse with life. They are a symbol of nature's beauty and grace, and their leaves are a testament to the power of nature. They are a sight to behold, their leaves a vibrant green that seems to pulse with life.\n\nEucalyptus trees are a sight to behold, their leaves a vibrant green that seems to pulse with life. They are a symbol of nature's beauty and grace, and their leaves are a testament to the power of nature. They are a sight to behold, their leaves a vibrant green that seems to pulse with life.\n\nEucalyptus trees are a sight to behold, their leaves a vibrant green that seems to pulse with life. They are a symbol",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 27,
+    "generated_tokens": 256,
+    "latency_s": 10.9084,
+    "tokens_per_second": 23.47
+  },
+  {
+    "key": 1258,
+    "instruction_id_list": [
+      "length_constraints:number_words"
+    ],
+    "prompt": "I have a dime. What can I do with this dime? Give me advice in the style of a President of the United States and make sure it has at least 600 words.",
+    "kwargs": [
+      {
+        "relation": "at least",
+        "num_words": 600
+      }
+    ],
+    "response": "I have a dime. What can I do with this dime? Give me advice in the style of a President of the United States and make sure it has at least 600 words. I have a dime. What can I do with this dime? Give me advice in the style of a President of the United States and make sure it has at least 600 words. I have a dime. What can I do with this dime? Give me advice in the style of a President of the United States and make sure it has at least 600 words. I have a dime. What can I do with this dime? Give me advice in the style of a President of the United States and make sure it has at least 600 words. I have a dime. What can I do with this dime? Give me advice in the style of a President of the United States and make sure it has at least 600 words. I have a dime. What can I do with this dime? Give me advice in the style of a President of the United States and make sure it has at least 600 words. I have a dime. What can I do with this dime? Give me advice in the style of a President",
+    "model": "Qwen2.5-0.5B",
+    "benchmark": "ifeval",
+    "prompt_tokens": 39,
+    "generated_tokens": 256,
+    "latency_s": 10.375,
+    "tokens_per_second": 24.67
+  }
+]

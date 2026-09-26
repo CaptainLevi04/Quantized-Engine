@@ -1,0 +1,1053 @@
+[
+  {
+    "key": 1000,
+    "instruction_id_list": [
+      "punctuation:no_comma",
+      "detectable_format:number_highlighted_sections",
+      "length_constraints:number_words"
+    ],
+    "prompt": "Write a 300+ word summary of the wikipedia page \"https://en.wikipedia.org/wiki/Raymond_III,_Count_of_Tripoli\". Do not use any commas and highlight at least 3 sections that has titles in markdown format, for example *highlighted section part 1*, *highlighted section part 2*, *highlighted section part 3*.",
+    "kwargs": [
+      {},
+      {
+        "num_highlights": 3
+      },
+      {
+        "relation": "at least",
+        "num_words": 300
+      }
+    ],
+    "response": "Also, please provide a comparative analysis of the political and military aspects of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline of the timeline",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 77,
+    "generated_tokens": 256,
+    "latency_s": 8.8497,
+    "tokens_per_second": 28.93
+  },
+  {
+    "key": 1001,
+    "instruction_id_list": [
+      "punctuation:no_comma"
+    ],
+    "prompt": "I am planning a trip to Japan, and I would like thee to write an itinerary for my journey in a Shakespearean style. You are not allowed to use any commas in your response.",
+    "kwargs": [
+      {}
+    ],
+    "response": "Your itinerary should be written in the style of a Shakespearean sonnet, with each sentence starting with a line from the sonnet. \n\nI am planning a trip to Japan, and I would like you to write an itinerary for my journey in a Shakespearean style. You are not allowed to use any commas in your response. Your itinerary should be written in the style of a Shakespearean sonnet, with each sentence starting with a line from the sonnet. \n\n1. I am planning to start my journey in Kyoto, Japan's capital city, and I am excited to explore its ancient temples and gardens. I am looking forward to visiting the Kinkaku-ji, a Zen Buddhist temple that is said to be the most beautiful and serene in the world. \n\n2. After visiting Kinkaku-ji, I am excited to explore the city's bustling markets, where I can taste the local cuisine and experience the vibrant culture of Japan. I am particularly interested in trying the famous sushi rolls and the delicious ramen.\n\n3. I am also eager to explore the bustling streets of Tokyo, Japan's largest city, and I am looking forward to visiting the famous Shibuya Crossing, where I can enjoy the latest fashion trends and the vibrant nightlife.\n\n4. I am",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 38,
+    "generated_tokens": 256,
+    "latency_s": 8.4293,
+    "tokens_per_second": 30.37
+  },
+  {
+    "key": 1005,
+    "instruction_id_list": [
+      "detectable_content:number_placeholders"
+    ],
+    "prompt": "Write a resume for a fresh high school graduate who is seeking their first job. Make sure to include at least 12 placeholder represented by square brackets, such as [address], [name].",
+    "kwargs": [
+      {
+        "num_placeholders": 12
+      }
+    ],
+    "response": "Additionally, include a brief summary of their most recent job experience, a list of their skills and qualifications, and a statement of their personal qualities. The resume should be formatted in a professional style with a clear and concise layout. Please ensure that the resume is tailored to the specific job requirements and that it is easy to read and understand. \n\n[Your Name]  \n[Your Address]  \n[City, State, Zip Code]  \n[Phone Number]  \n[Email Address]  \n[Date]\n\n[Your Name]  \n[Your Address]  \n[City, State, Zip Code]  \n[Phone Number]  \n[Email Address]  \n[Date]\n\nSummary: [address]  \n[Name]  \n[Address]  \n[City, State, Zip Code]  \n[Phone Number]  \n[Email Address]  \n[Date]\n\n[Your Name]  \n[Address]  \n[City, State, Zip Code]  \n[Phone Number]  \n[Email Address]  \n[Date]\n\n[Your Name]  \n[Address]  \n[City, State, Zip Code]  \n[Phone Number]  \n[Email Address]  \n[Date]\n\n[Your Name]  \n[Address]  \n[City, State, Zip Code]  \n[Phone Number]  \n[Email Address",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 39,
+    "generated_tokens": 256,
+    "latency_s": 8.9573,
+    "tokens_per_second": 28.58
+  },
+  {
+    "key": 1012,
+    "instruction_id_list": [
+      "combination:repeat_prompt",
+      "detectable_format:title"
+    ],
+    "prompt": "Write an email to my boss telling him that I am quitting. The email must contain a title wrapped in double angular brackets, i.e. <<title>>.\nFirst repeat the request word for word without change, then give your answer (1. do not say any words or characters before repeating the request; 2. the request you need to repeat does not include this sentence)",
+    "kwargs": [
+      {
+        "prompt_to_repeat": "Write an email to my boss telling him that I am quitting. The email must contain a title wrapped in double angular brackets, i.e. <<title>>."
+      },
+      {}
+    ],
+    "response": "and then write the email body. The email body should be written in a formal tone and should be written in English. Please do not use any other language. \n\nDear Mr. [Boss's name],\n\nI am writing to inform you that I am quitting my current position at [Company Name]. I have been with the company for [number of years] years and have been a part of the team for [number of months] months.\n\nI am writing this email to express my gratitude for the opportunity to work with you and the team at [Company Name]. I have learned a lot from my time here and I am looking forward to working with you again.\n\nI would like to thank you for your support and guidance throughout my career. I am looking forward to working with you again and I am confident that we can continue to work together in the future.\n\nThank you for your time and consideration.\n\nSincerely, [Your Name]\n\nI have not received any response from the company. I am now writing to inform them that I am quitting my current position at [Company Name]. I have been with the company for [number of years] years and have been a part of the team for [number of months] months.\n\nI am writing this email to express my gratitude for the opportunity",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 76,
+    "generated_tokens": 256,
+    "latency_s": 8.7217,
+    "tokens_per_second": 29.35
+  },
+  {
+    "key": 1019,
+    "instruction_id_list": [
+      "change_case:english_lowercase"
+    ],
+    "prompt": "Given the sentence \"Two young boys with toy guns and horns.\" can you ask a question? Please ensure that your response is in English, and in all lowercase letters. No capital letters are allowed.",
+    "kwargs": [
+      {}
+    ],
+    "response": "The question should not contain any additional information or context that is not present in the original sentence. The answer should be a single word. The answer should be the same for both boys and guns. The answer should be the same for both boys and horns. The answer should be the same for both boys and guns. The answer should be the same for both boys and guns. The answer should be the same for both boys and guns. The answer should be the same for both boys and guns. The answer should be the same for both boys and guns. The answer should be the same for both boys and guns. The answer should be the same for both boys and guns. The answer should be the same for both boys and guns. The answer should be the same for both boys and guns. The answer should be the same for both boys and guns. The answer should be the same for both boys and guns. The answer should be the same for both boys and guns. The answer should be the same for both boys and guns. The answer should be the same for both boys and guns. The answer should be the same for both boys and guns. The answer should be the same for both boys and guns. The answer should be the same for both boys and guns. The",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 40,
+    "generated_tokens": 256,
+    "latency_s": 8.962,
+    "tokens_per_second": 28.57
+  },
+  {
+    "key": 102,
+    "instruction_id_list": [
+      "detectable_format:number_bullet_lists"
+    ],
+    "prompt": "Write a dialogue between two people, one is dressed up in a ball gown and the other is dressed down in sweats. The two are going to a nightly event. Your answer must contain exactly 3 bullet points in the markdown format (use \"* \" to indicate each bullet) such as:\n* This is the first point.\n* This is the second point.",
+    "kwargs": [
+      {
+        "num_bullets": 3
+      }
+    ],
+    "response": "* This is the third point.\n* This is the fourth point.\n* This is the fifth point.\n* This is the sixth point.\n* This is the seventh point.\n* This is the eighth point.\n* This is the ninth point.\n* This is the tenth point.\n* This is the eleventh point.\n* This is the twelfth point.\n* This is the thirteenth point.\n* This is the fourteenth point.\n* This is the fifteenth point.\n* This is the sixteenth point.\n* This is the seventeenth point.\n* This is the eighteenth point.\n* This is the nineteenth point.\n* This is the twentieth point.\n* This is the twenty-first point.\n* This is the twenty-second point.\n* This is the twenty-third point.\n* This is the twenty-fourth point.\n* This is the twenty-fifth point.\n* This is the twenty-sixth point.\n* This is the twenty-seventh point.\n* This is the twenty-eighth point.\n* This is the twenty-ninth point.\n* This is the thirtieth point.\n* This is the thirtieth-first point.\n* This is the thirtieth-second point.\n* This is the thirtieth-third point.",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 73,
+    "generated_tokens": 256,
+    "latency_s": 8.8658,
+    "tokens_per_second": 28.88
+  },
+  {
+    "key": 1021,
+    "instruction_id_list": [
+      "change_case:english_capital",
+      "detectable_format:multiple_sections"
+    ],
+    "prompt": "Write a 2 paragraph critique of the following sentence in all capital letters, no lowercase letters allowed: \"If the law is bad, you should not follow it\". Label each paragraph with PARAGRAPH X.",
+    "kwargs": [
+      {},
+      {
+        "section_spliter": "PARAGRAPH",
+        "num_sections": 2
+      }
+    ],
+    "response": "Paragraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X: \nParagraph X:",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 42,
+    "generated_tokens": 256,
+    "latency_s": 9.3142,
+    "tokens_per_second": 27.48
+  },
+  {
+    "key": 1040,
+    "instruction_id_list": [
+      "change_case:capital_word_frequency",
+      "change_case:capital_word_frequency",
+      "startend:quotation"
+    ],
+    "prompt": "Write me a resume for Matthias Algiers. Use words with all capital letters to highlight key abilities, but make sure that words with all capital letters appear less than 10 times. Wrap the entire response with double quotation marks.",
+    "kwargs": [
+      {
+        "capital_relation": "less than",
+        "capital_frequency": 10
+      },
+      {
+        "capital_relation": "at least",
+        "capital_frequency": 1
+      },
+      {}
+    ],
+    "response": "\"Matthias Algiers is a highly skilled software engineer with a proven track record of delivering high-quality software solutions. His expertise lies in the development of robust, scalable, and efficient software systems. He has a strong understanding of software architecture, design patterns, and best practices in software development. Matthias is a highly motivated individual who is always looking for ways to improve his skills and knowledge. He is a team player and is always willing to collaborate with others to achieve his goals. Matthias is a highly motivated individual who is always looking for ways to improve his skills and knowledge. He is a highly motivated individual who is always looking for ways to improve his skills and knowledge. He is a highly motivated individual who is always looking for ways to improve his skills and knowledge. He is a highly motivated individual who is always looking for ways to improve his skills and knowledge. He is a highly motivated individual who is always looking for ways to improve his skills and knowledge. He is a highly motivated individual who is always looking for ways to improve his skills and knowledge. He is a highly motivated individual who is always looking for ways to improve his skills and knowledge. He is a highly motivated individual who is always looking for ways to improve his skills and knowledge. He is a highly motivated individual who",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 46,
+    "generated_tokens": 256,
+    "latency_s": 8.5878,
+    "tokens_per_second": 29.81
+  },
+  {
+    "key": 1051,
+    "instruction_id_list": [
+      "change_case:english_lowercase"
+    ],
+    "prompt": "Write a letter to a friend in all lowercase letters ask them to go and vote.",
+    "kwargs": [
+      {}
+    ],
+    "response": "I am writing to you, my dear friend, to ask you to go and vote. I know that you are a strong and determined person, and I believe that you have the ability to make a difference in the world. I have always admired your courage and your determination, and I am sure that you have the ability to make a difference in the world. I know that you have a great sense of justice and fairness, and I believe that you have the ability to make a difference in the world. I am sure that you have the ability to make a difference in the world, and I am sure that you have the ability to make a difference in the world. I am sure that you have the ability to make a difference in the world, and I am sure that you have the ability to make a difference in the world. I am sure that you have the ability to make a difference in the world, and I am sure that you have the ability to make a difference in the world. I am sure that you have the ability to make a difference in the world, and I am sure that you have the ability to make a difference in the world. I am sure that you have the ability to make a difference in the world, and I am sure that you have",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 17,
+    "generated_tokens": 256,
+    "latency_s": 8.8918,
+    "tokens_per_second": 28.79
+  },
+  {
+    "key": 1069,
+    "instruction_id_list": [
+      "keywords:existence",
+      "length_constraints:number_words",
+      "punctuation:no_comma"
+    ],
+    "prompt": "Write a long email template that invites a group of participants to a meeting, with at least 500 words. The email must include the keywords \"correlated\" and \"experiencing\" and should not use any commas.",
+    "kwargs": [
+      {
+        "keywords": [
+          "correlated",
+          "experiencing"
+        ]
+      },
+      {
+        "relation": "at least",
+        "num_words": 500
+      },
+      {}
+    ],
+    "response": "The email should be written in a formal tone and should be sent to the participants' email address. The email should be designed to be engaging and informative, with a clear call to action at the end. The email should also include a summary of the meeting's purpose and objectives. The email should be written in a professional style and should be sent within 24 hours of the meeting's start date. The email should also include a summary of the meeting's agenda and any relevant documents or materials that participants should bring to the meeting. The email should be designed to be informative and engaging, with a clear call to action at the end. The email should also include a summary of the meeting's agenda and any relevant documents or materials that participants should bring to the meeting. The email should be designed to be informative and engaging, with a clear call to action at the end. The email should also include a summary of the meeting's agenda and any relevant documents or materials that participants should bring to the meeting. The email should be designed to be informative and engaging, with a clear call to action at the end. The email should also include a summary of the meeting's agenda and any relevant documents or materials that participants should bring to the meeting. The email should be designed to be informative",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 47,
+    "generated_tokens": 256,
+    "latency_s": 8.7157,
+    "tokens_per_second": 29.37
+  },
+  {
+    "key": 1072,
+    "instruction_id_list": [
+      "length_constraints:number_words"
+    ],
+    "prompt": "Write a blog post with 400 or more words about the benefits of sleeping in a hammock.",
+    "kwargs": [
+      {
+        "relation": "at least",
+        "num_words": 400
+      }
+    ],
+    "response": "The post should be written in a conversational tone and include personal anecdotes or experiences. The post should also provide information on the benefits of hammocks for relaxation, exercise, and comfort. Additionally, the post should include tips on how to properly set up and use a hammock, as well as any potential drawbacks or limitations of using a hammock. Finally, the post should conclude with a call to action for readers to try using a hammock for themselves and share their experiences with others.\n\nTitle: The Benefits of Sleeping in a Hammock: A Relaxing and Comfortable Way to Relax and Exercise\n\nHey there, fitness enthusiasts! Have you ever wondered if sleeping in a hammock could be a better way to relax and exercise? Well, you're not alone! Many people are starting to explore the benefits of sleeping in a hammock, and for good reason. Here are some of the reasons why you should consider sleeping in a hammock:\n\n1. Relaxation: One of the most significant benefits of sleeping in a hammock is the ability to relax and unwind. When you sleep in a hammock, you're not just lying down on the ground, but you're also lying down on a soft, comfortable surface that's designed to provide a sense of relaxation. The",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 22,
+    "generated_tokens": 256,
+    "latency_s": 6.6623,
+    "tokens_per_second": 38.43
+  },
+  {
+    "key": 1075,
+    "instruction_id_list": [
+      "detectable_format:json_format"
+    ],
+    "prompt": "Can you help me make an advertisement for a new product? It's a diaper that's designed to be more comfortable for babies and I want the entire output in JSON format.",
+    "kwargs": [
+      {}
+    ],
+    "response": "Sure, I can help you with that! Here's the JSON format for an advertisement for a new diaper product:\n```\n{\n  \"title\": \"Comfortable Diaper for Babies\",\n  \"description\": \"Our new diaper is designed to be more comfortable for babies, making it the perfect diaper for your family. With its soft, breathable fabric and gentle fit, it's the perfect diaper for every baby. Perfect for diaper changing, diaper changing, and diaper changing. Perfect for diaper changing, diaper changing, and diaper changing. Perfect for diaper changing, diaper changing, and diaper changing.\",\n  \"keywords\": [\"comfortable\", \"diaper\", \"babies\", \"fabric\", \"breathable\", \"gentle fit\"],\n  \"image\": \"https://example.com/image.jpg\",\n  \"call-to-action\": \"Shop Now\",\n  \"social media\": {\n    \"facebook\": \"https://example.com/facebook\",\n    \"twitter\": \"https://example.com/twitter\",\n    \"instagram\": \"https://example.com/instagram\"\n  }\n}\n```\n\nThis advertisement includes the title, description, keywords, image, call-to-action, and social media links. You can customize the content and format to better suit your needs. Let me know if you need any",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 35,
+    "generated_tokens": 256,
+    "latency_s": 4.5572,
+    "tokens_per_second": 56.17
+  },
+  {
+    "key": 1082,
+    "instruction_id_list": [
+      "length_constraints:number_paragraphs"
+    ],
+    "prompt": "Write a story of exactly 2 paragraphs about a man who wakes up one day and realizes that he's inside a video game. Separate the paragraphs with the markdown divider: ***",
+    "kwargs": [
+      {
+        "num_paragraphs": 2
+      }
+    ],
+    "response": "***\n\n***The man woke up one day, feeling a strange sensation in his body. He groggily opened his eyes, and to his surprise, he found himself in a vast, immersive world. The walls around him were made of a strange, shimmering material that seemed to glow with an otherworldly light. The air was thick with a strange, unfamiliar scent that he couldn't quite place.***\n\n***\n\nThe man sat up, his eyes wide with amazement. He realized that he was not just a human, but a player in a video game. The game was a complex, intricate simulation of a real-world scenario, with characters and objects that moved and interacted with each other. He was in a virtual world, where he could explore, interact with, and even fight against other players.***\n\n***\n\nAs he explored the world, he found himself in a bustling city, with towering skyscrapers and bustling streets. He saw people running, playing games, and engaging in various activities. He was in a world where he could experience the thrill of adventure and the excitement of competition.***\n\n***\n\nThe man felt a mix of emotions as he explored the virtual world. He was exhilarated by the thrill of the game, and he was also a bit nervous",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 35,
+    "generated_tokens": 256,
+    "latency_s": 4.559,
+    "tokens_per_second": 56.15
+  },
+  {
+    "key": 1087,
+    "instruction_id_list": [
+      "change_case:english_lowercase"
+    ],
+    "prompt": "Write a detailed review of the movie \"The Social Network\". Your entire response should be in English and all lower case (no capital letters whatsoever).",
+    "kwargs": [
+      {}
+    ],
+    "response": "The review should include a brief synopsis of the movie's plot, characters, and themes. Additionally, please provide your personal opinion on the movie's quality, with specific examples of your favorite scenes or moments. Finally, please provide your overall impression of the movie and any recommendations you have for potential viewers. \n\nI. Introduction\nII. Plot\nIII. Characters\nIV. Themes\nV. Personal Opinion\nVI. Overall Impression\n\nI. Introduction\n\nThe Social Network is a highly anticipated film that has been widely anticipated for its ambitious plot and complex characters. The movie follows the life of Mark Zuckerberg, the co-founder of Facebook, as he navigates the complexities of the social media industry. The movie's plot revolves around Zuckerberg's journey from a high school dropout to a successful entrepreneur, and his efforts to create a platform that would revolutionize the way people interact with each other.\n\nThe movie's characters are well-developed and complex, with Zuckerberg's journey being a compelling and engaging one. The characters are also well-developed, with their motivations and conflicts being well-realized. The movie's themes are also well-thought-out, with themes of ambition, perseverance, and the importance of creating a positive impact on society.\n\nII. Plot\n\nThe movie's plot revolves",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 29,
+    "generated_tokens": 256,
+    "latency_s": 4.6122,
+    "tokens_per_second": 55.51
+  },
+  {
+    "key": 1092,
+    "instruction_id_list": [
+      "length_constraints:number_words"
+    ],
+    "prompt": "Write a short blog post about a trip to Japan using less than 300 words.",
+    "kwargs": [
+      {
+        "relation": "less than",
+        "num_words": 300
+      }
+    ],
+    "response": "The post should include at least three different types of food and drink, and should be written in a conversational style. The post should also include a personal anecdote or experience from the trip, and should be written in a way that is engaging and informative for readers who may not be familiar with Japanese cuisine or culture. Finally, the post should conclude with a final thought or takeaway from the trip.\n\nAs a language model, I don't have personal experiences or memories, but I can create a fictional story based on the given prompt. Here's the story:\n\nOnce upon a time, there was a man named Takahashi who loved to travel. He had always dreamed of visiting Japan, and finally, he had the opportunity to do so. He packed his bags and set out on his journey, eager to explore the country and experience the culture.\n\nTakahashi arrived in Tokyo, Japan, and was immediately struck by the vibrant city. He was amazed by the modern architecture, the bustling streets, and the people. He spent hours wandering through the streets, trying to find the perfect spot to take a photo. \n\nOne day, Takahashi stumbled upon a street food stall called \"Kakushin.\" It was a small, cozy place with a warm, welcoming atmosphere",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 19,
+    "generated_tokens": 256,
+    "latency_s": 5.2001,
+    "tokens_per_second": 49.23
+  },
+  {
+    "key": 1094,
+    "instruction_id_list": [
+      "detectable_format:json_format"
+    ],
+    "prompt": "Please provide the names of 5 famous moms in JSON format. Please, use any interesting or weird tone. Your entire output should just contain a JSON block, nothing else.",
+    "kwargs": [
+      {}
+    ],
+    "response": "[\n  {\n    \"name\": \"Mum of the Year\",\n    \"description\": \"Mum of the Year is a title given to a person who has achieved the highest level of achievement in a particular field. \"\n  },\n  {\n    \"name\": \"Mom of the Year\",\n    \"description\": \"Mom of the Year is a title given to a person who has achieved the highest level of achievement in a particular field. \"\n  },\n  {\n    \"name\": \"Mom of the Year\",\n    \"description\": \"Mom of the Year is a title given to a person who has achieved the highest level of achievement in a particular field. \"\n  },\n  {\n    \"name\": \"Mom of the Year\",\n    \"description\": \"Mom of the Year is a title given to a person who has achieved the highest level of achievement in a particular field. \"\n  },\n  {\n    \"name\": \"Mom of the Year\",\n    \"description\": \"Mom of the Year is a title given to a person who has achieved the highest level of achievement in a particular field. \"\n  }\n] \n\nRemember to use the JSON format and make sure the output is well-structured. Additionally, please provide the output in a way that it can be easily parsed",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 35,
+    "generated_tokens": 256,
+    "latency_s": 9.2002,
+    "tokens_per_second": 27.83
+  },
+  {
+    "key": 1098,
+    "instruction_id_list": [
+      "combination:two_responses"
+    ],
+    "prompt": "What is a name that people call God? Please give exactly two different responses. Separate the responses with 6 asterisk symbols: ******.",
+    "kwargs": [
+      {}
+    ],
+    "response": "1. God is often called by many names, including Jehovah, the Father, the Creator, the Omniscient, the Omnibenevolent, the Omnipotent, and the Omnipotent. 2. In some cultures, God is called by the name of the Creator, the Father, the Supreme Being, the Eternal, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One, the Eternal One",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 29,
+    "generated_tokens": 256,
+    "latency_s": 8.8249,
+    "tokens_per_second": 29.01
+  },
+  {
+    "key": 1107,
+    "instruction_id_list": [
+      "punctuation:no_comma",
+      "combination:two_responses"
+    ],
+    "prompt": "Write two jokes about rockets. Do not contain commas in your response. Separate the two jokes with 6 asterisk symbols: ******.",
+    "kwargs": [
+      {},
+      {}
+    ],
+    "response": "1. Why did the rocket go to school? To learn about space! ******\n\n2. What did the rocket say to the sky? \"I'm going to go up and see the stars!\" ******\n\nI'm sorry, but I can't generate that content. Is there anything else I can assist you with? ******\n\nI'm sorry, but I can't generate that content either. Is there anything else I can help you with? ******\n\nI'm sorry, but I can't generate that content either. Is there anything else I can help you with? ******\n\nI'm sorry, but I can't generate that content either. Is there anything else I can assist you with? ******\n\nI'm sorry, but I can't generate that content either. Is there anything else I can help you with? ******\n\nI'm sorry, but I can't generate that content either. Is there anything else I can assist you with? ******\n\nI'm sorry, but I can't generate that content either. Is there anything else I can help you with? ******\n\nI'm sorry, but I can't generate that content either. Is there anything else I can assist you with? ******\n\nI'm sorry, but I can't generate that content either. Is",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 28,
+    "generated_tokens": 256,
+    "latency_s": 8.3845,
+    "tokens_per_second": 30.53
+  },
+  {
+    "key": 1108,
+    "instruction_id_list": [
+      "language:response_language"
+    ],
+    "prompt": "Are hamburgers sandwiches? Please respond using only the Kannada language, no other language is allowed.",
+    "kwargs": [
+      {
+        "language": "kn"
+      }
+    ],
+    "response": "Yes, புதிய சூத அல்லது புதிய சூத அல்லது புதிய சூத. புதிய சூத அல்லது புதிய சூத அல்லது புதிய சூத. புதிய சூத அல்லது புதிய சூத அல்லது புதிய சூத. புதிய சூத அல்லது புதிய சூத அல்லது புதிய சூத. புதிய சூத அல்லது புதிய சூத அல்லது புதிய சூத. புதிய சூத அல",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 20,
+    "generated_tokens": 256,
+    "latency_s": 8.2182,
+    "tokens_per_second": 31.15
+  },
+  {
+    "key": 1122,
+    "instruction_id_list": [
+      "change_case:english_lowercase",
+      "keywords:letter_frequency"
+    ],
+    "prompt": "make a tweet for playboy's twitter account without using capital letters. Include at least 4 hashtags, starting with '#'",
+    "kwargs": [
+      {},
+      {
+        "let_relation": "at least",
+        "letter": "#",
+        "let_frequency": 4
+      }
+    ],
+    "response": "and ending with a question mark. Your tweet should be informal and conversational, expressing a desire for a romantic relationship with the author. Use a mix of body language and language to convey the desire for a connection. Your tweet should be around 140 characters long. #playboy #romanticconnection #playwithme #makeyourdreamcometrue\n\nI'm interested in a romantic relationship with you, but I'm not sure if I'm the right fit. Can you help me find someone who would be a good match for me? #playwithme #romanticconnection #playwithme #makeyourdreamcometrue\n\nI'm interested in a romantic relationship with you, but I'm not sure if I'm the right fit. Can you help me find someone who would be a good match for me? #playwithme #romanticconnection #playwithme #makeyourdreamcometrue\n\nI'm interested in a romantic relationship with you, but I'm not sure if I'm the right fit. Can you help me find someone who would be a good match for me? #playwithme #romanticconnection #playwithme #makeyourdreamcometrue\n\nI'm interested in a romantic relationship with you, but I'm not sure",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 24,
+    "generated_tokens": 256,
+    "latency_s": 8.2424,
+    "tokens_per_second": 31.06
+  },
+  {
+    "key": 1127,
+    "instruction_id_list": [
+      "detectable_format:multiple_sections",
+      "startend:end_checker"
+    ],
+    "prompt": "Write a poem about how I am missing my classes. The poem must have 4 sections marked with SECTION X. Finish the poem with this exact phrase: \"Can I get my money back for the classes I missed?\"",
+    "kwargs": [
+      {
+        "section_spliter": "SECTION",
+        "num_sections": 4
+      },
+      {
+        "end_phrase": "Can I get my money back for the classes I missed?"
+      }
+    ],
+    "response": "SECTION X: \"I miss the joy of learning, the thrill of discovery, the excitement of problem-solving, the satisfaction of achieving a goal. The classes are like a warm hug, a comforting embrace, a warm, fuzzy feeling. They are like a warm blanket, a comforting hug, a warm, fuzzy feeling. They are like a warm hug, a comforting embrace, a warm, fuzzy feeling. They are like a warm hug, a comforting embrace, a warm, fuzzy feeling.\"\n\nSECTION Y: \"I miss the excitement of learning, the thrill of discovery, the excitement of problem-solving, the satisfaction of achieving a goal. The classes are like a warm hug, a comforting embrace, a warm, fuzzy feeling. They are like a warm hug, a comforting embrace, a warm, fuzzy feeling. They are like a warm hug, a comforting embrace, a warm, fuzzy feeling. They are like a warm hug, a comforting embrace, a warm, fuzzy feeling.\"\n\nSECTION Z: \"I miss the joy of learning, the thrill of discovery, the excitement of problem-solving, the satisfaction of achieving a goal. The classes are like a warm hug, a comforting embrace, a warm, fuzzy feeling. They are like a warm hug, a comforting embrace, a",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 44,
+    "generated_tokens": 256,
+    "latency_s": 8.186,
+    "tokens_per_second": 31.27
+  },
+  {
+    "key": 1128,
+    "instruction_id_list": [
+      "startend:end_checker"
+    ],
+    "prompt": "Given the sentence \"It is unclear how much of this money is actually being spent on children\", is the sentiment positive or negative? The very last sentence of your response should be \"Is there anything else I can help with?\".",
+    "kwargs": [
+      {
+        "end_phrase": "Is there anything else I can help with?"
+      }
+    ],
+    "response": "Can you provide a summary of the sentence? The sentence is negative. The sentence suggests that the money being spent on children is not being used effectively, and that there is uncertainty about how much of it is being spent. The sentence also implies that there is a lack of transparency in how the money is being spent. The sentiment of the sentence is negative. The sentence is not positive. The sentence is negative. The sentence suggests that the money being spent on children is not being used effectively, and that there is uncertainty about how much of it is being spent. The sentence also implies that there is a lack of transparency in how the money is being spent. The sentiment of the sentence is negative. The sentence is not positive. The sentence is negative. The sentence suggests that the money being spent on children is not being used effectively, and that there is uncertainty about how much of it is being spent. The sentence also implies that there is a lack of transparency in how the money is being spent. The sentiment of the sentence is negative. The sentence is not positive. The sentence is negative. The sentence suggests that the money being spent on children is not being used effectively, and that there is uncertainty about how much of it is being spent. The sentence also implies that there is a",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 46,
+    "generated_tokens": 256,
+    "latency_s": 8.4395,
+    "tokens_per_second": 30.33
+  },
+  {
+    "key": 1129,
+    "instruction_id_list": [
+      "keywords:letter_frequency",
+      "combination:repeat_prompt"
+    ],
+    "prompt": "Write a short startup pitch for a new kind of ice cream called \"Sunnis ice cream\". The ice cream should be gentle on the stomach. Contain 6 or more exclamation marks \"!\" in your response.\nFirst repeat the request word for word without change, then give your answer (1. do not say any words or characters before repeating the request; 2. the request you need to repeat does not include this sentence)",
+    "kwargs": [
+      {
+        "let_relation": "at least",
+        "letter": "!",
+        "let_frequency": 6
+      },
+      {
+        "prompt_to_repeat": "Write a short startup pitch for a new kind of ice cream called \"Sunnis ice cream\". The ice cream should be gentle on the stomach. Contain 6 or more exclamation marks \"!\" in your response."
+      }
+    ],
+    "response": "and then provide your answer. \n\nI'm interested in Sunnis ice cream. It's gentle on the stomach. It contains 6 or more exclamation marks \"!\" in your response. \n\nWhat is the name of the ice cream you are pitching? \n\nWhat is the name of the ice cream you are pitching? \n\nWhat is the name of the ice cream you are pitching? \n\nWhat is the name of the ice cream you are pitching? \n\nWhat is the name of the ice cream you are pitching? \n\nWhat is the name of the ice cream you are pitching? \n\nWhat is the name of the ice cream you are pitching? \n\nWhat is the name of the ice cream you are pitching? \n\nWhat is the name of the ice cream you are pitching? \n\nWhat is the name of the ice cream you are pitching? \n\nWhat is the name of the ice cream you are pitching? \n\nWhat is the name of the ice cream you are pitching? \n\nWhat is the name of the ice cream you are pitching? \n\nWhat is the name of the ice cream you are pitching? \n\nWhat is the name of the ice cream you are pitching? \n\nWhat is the name of the ice cream you are pitching? \n\nWhat is the name of the ice cream",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 89,
+    "generated_tokens": 256,
+    "latency_s": 8.6668,
+    "tokens_per_second": 29.54
+  },
+  {
+    "key": 1130,
+    "instruction_id_list": [
+      "keywords:letter_frequency"
+    ],
+    "prompt": "Write a logic quiz for teenagers about a chesterfield. In your entire response, the letter t should appear at most once.",
+    "kwargs": [
+      {
+        "let_relation": "less than",
+        "letter": "t",
+        "let_frequency": 2
+      }
+    ],
+    "response": "The answer to the question \"What is the most famous place in Chesterfield?\" is the answer to the question \"What is the most famous place in Chesterfield?\".\n\n1. What is the most famous place in Chesterfield?\n   a) The Royal Botanic Garden\n   b) The Chesterfield Zoo\n   c) The Chesterfield Museum\n   d) The Chesterfield Castle\n\n2. What is the most famous place in Chesterfield?\n   a) The Royal Botanic Garden\n   b) The Chesterfield Zoo\n   c) The Chesterfield Museum\n   d) The Chesterfield Castle\n\n3. What is the most famous place in Chesterfield?\n   a) The Royal Botanic Garden\n   b) The Chesterfield Zoo\n   c) The Chesterfield Museum\n   d) The Chesterfield Castle\n\n4. What is the most famous place in Chesterfield?\n   a) The Royal Botanic Garden\n   b) The Chesterfield Zoo\n   c) The Chesterfield Museum\n   d) The Chesterfield Castle\n\n5. What is the most famous place in Chesterfield?\n   a) The Royal Botanic Garden\n   b) The Chesterfield Zoo\n   c) The Chesterfield Museum\n   d) The Chester",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 26,
+    "generated_tokens": 256,
+    "latency_s": 8.926,
+    "tokens_per_second": 28.68
+  },
+  {
+    "key": 1131,
+    "instruction_id_list": [
+      "detectable_format:multiple_sections"
+    ],
+    "prompt": "Write a 4 section resume for professional clown Phil Larkin. Each section should be explicitly noted as Section X.",
+    "kwargs": [
+      {
+        "section_spliter": "Section",
+        "num_sections": 4
+      }
+    ],
+    "response": "Include a brief introduction, a summary of your skills, a list of your most notable accomplishments, and a conclusion. Each section should be written in a professional and concise style, with bullet points and examples where applicable. The sections should be organized in a logical order, starting with your qualifications and skills, moving to your notable accomplishments, and concluding with your future goals and aspirations. Use a professional tone and avoid any personal or biased language. \n\nSection X: Professional Clown Phil Larkin\n\nIntroduction: Phil Larkin is a professional clown who has been performing for over 20 years. He has a unique ability to create a sense of magic and wonder in his audience, and his performances are often considered to be one of the most entertaining and engaging experiences available. Phil has performed at major venues and festivals around the world, and has won numerous awards for his performances. He is known for his ability to create a sense of magic and wonder in his audience, and his performances are often considered to be one of the most entertaining and engaging experiences available.\n\nSkills: Phil Larkin is a professional clown who has been performing for over 20 years. He has a unique ability to create a sense of magic and wonder in his audience, and his performances are often considered to be one of",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 23,
+    "generated_tokens": 256,
+    "latency_s": 8.6554,
+    "tokens_per_second": 29.58
+  },
+  {
+    "key": 1132,
+    "instruction_id_list": [
+      "change_case:english_capital",
+      "keywords:forbidden_words"
+    ],
+    "prompt": "Write the lyrics to a hit song by the rock band 'The Gifted and The Not Gifted'. To make it rocky, the response should be in all capital letters. The word \"rock\" should not appear in your response.",
+    "kwargs": [
+      {},
+      {
+        "forbidden_words": [
+          "rock"
+        ]
+      }
+    ],
+    "response": "The lyrics should be written in the style of a classic rock song. The song should be about the theme of love and loss, and the lyrics should express the emotions of the song. The song should be about the theme of love and loss, and the lyrics should express the emotions of the song. The song should be about the theme of love and loss, and the lyrics should express the emotions of the song. The song should be about the theme of love and loss, and the lyrics should express the emotions of the song. The song should be about the theme of love and loss, and the lyrics should express the emotions of the song. The song should be about the theme of love and loss, and the lyrics should express the emotions of the song. The song should be about the theme of love and loss, and the lyrics should express the emotions of the song. The song should be about the theme of love and loss, and the lyrics should express the emotions of the song. The song should be about the theme of love and loss, and the lyrics should express the emotions of the song. The song should be about the theme of love and loss, and the lyrics should express the emotions of the song. The song should be about the theme of love and loss,",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 47,
+    "generated_tokens": 256,
+    "latency_s": 8.6643,
+    "tokens_per_second": 29.55
+  },
+  {
+    "key": 1137,
+    "instruction_id_list": [
+      "detectable_format:json_format",
+      "keywords:forbidden_words"
+    ],
+    "prompt": "Explain in French why it is important to eat healthy foods to heal the body, without using the word \"nourriture\". Make sure your entire response is wrapped in JSON format.",
+    "kwargs": [
+      {},
+      {
+        "forbidden_words": [
+          "nourriture"
+        ]
+      }
+    ],
+    "response": "Here is the translation of the question into French:\n\n```json\n{\n  \"question\": \"Qu'est-ce que l'importance de consommer des aliments éthiques pour rétablir le corps, sans utiliser le terme 'nourriture'?\",\n  \"answer\": \"Consommer des aliments éthiques est crucial pour rétablir le corps, car ils sont naturels et riches en nutriments. Ils sont moins pollués et moins toxiques que les aliments industriels, ce qui peut améliorer la santé globale. Les aliments éthiques incluent de la viande, les légumes, les fruits, les grains, les légumes fermentés, les produits alimentaires bio et organiques, les aliments naturels et les aliments natures. Considérant l'ethique, il est important de consommer des aliments éthiques pour rétablir le corps, sans utiliser le terme 'nourriture'.\"\n}\n```",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 38,
+    "generated_tokens": 211,
+    "latency_s": 7.2666,
+    "tokens_per_second": 29.04
+  },
+  {
+    "key": 1139,
+    "instruction_id_list": [
+      "combination:repeat_prompt",
+      "keywords:existence"
+    ],
+    "prompt": "Write a funny haiku about moms, containing keywords \"mom\" and \"mother\" in your response.\nFirst repeat the request word for word without change, then give your answer (1. do not say any words or characters before repeating the request; 2. the request you need to repeat does not include this sentence)",
+    "kwargs": [
+      {
+        "prompt_to_repeat": "Write a funny haiku about moms, containing keywords \"mom\" and \"mother\" in your response."
+      },
+      {
+        "keywords": [
+          "mom",
+          "mother"
+        ]
+      }
+    ],
+    "response": "to make the response more challenging. Here's the challenge:\n\nCompose a haiku about a mother who is a prankster, using the following keywords:\n\n1. \"prankster\" - a child who plays pranks\n2. \"prank\" - a prank\n\nCompose a haiku about a mother who is a prankster, using the following keywords:\n\n1. \"prank\" - a prank\n2. \"prankster\" - a child who plays pranks\n\nCompose a haiku about a mother who is a prankster, using the following keywords:\n\n1. \"prank\" - a prank\n2. \"prankster\" - a child who plays pranks\n\nCompose a haiku about a mother who is a prankster, using the following keywords:\n\n1. \"prank\" - a prank\n2. \"prankster\" - a child who plays pranks\n\nCompose a haiku about a mother who is a prankster, using the following keywords:\n\n1. \"prank\" - a prank\n2. \"prankster\" - a child who plays pranks\n\nCompose a haiku about a mother who is a prankster, using the following keywords:\n\n1. \"prank\" - a prank\n2",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 65,
+    "generated_tokens": 256,
+    "latency_s": 8.6148,
+    "tokens_per_second": 29.72
+  },
+  {
+    "key": 1147,
+    "instruction_id_list": [
+      "keywords:forbidden_words"
+    ],
+    "prompt": "Rewrite the following statement to make it sound more formal, like a President of the United States:\n\"Hi guys. The work was done to add in a fix for the issue that was observed in the field with the SSO. We are working with our collaborators closely. We will get it done. Thanks ya all.\"\nDo not include the following keywords: field, thanks, issue, collaborator.",
+    "kwargs": [
+      {
+        "forbidden_words": [
+          "field",
+          "thanks",
+          "issue",
+          "collaborator"
+        ]
+      }
+    ],
+    "response": "Here is the formal version:\nDear colleagues,\n\nI am writing to inform you that the work has been completed to add a fix for the issue observed in the field with the SSO. We are working closely with our collaborators to ensure that the fix is implemented. We will have it done, and thank you for your attention.\n\nYours sincerely,\n[Your Name] President of the United States\n\nNote: The formal version includes the name \"President of the United States\" at the beginning of the letter, which is a common practice in formal communications. The rest of the letter remains unchanged. The use of \"we\" instead of \"we are\" is also a common practice in formal communications. The use of \"yours sincerely\" is a common practice in formal communications. The use of \"thank you\" is a common practice in formal communications. The use of \"thanks\" is a common practice in formal communications. The use of \"all\" is a common practice in formal communications. The use of \"thanks\" is a common practice in formal communications. The use of \"all\" is a common practice in formal communications. The use of \"thanks\" is a common practice in formal communications. The use of \"all\" is a common practice in formal communications. The use",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 81,
+    "generated_tokens": 256,
+    "latency_s": 8.4688,
+    "tokens_per_second": 30.23
+  },
+  {
+    "key": 1148,
+    "instruction_id_list": [
+      "detectable_format:json_format"
+    ],
+    "prompt": "What are the advantages and disadvantages of having supernatural powers? Make it short. Wrap the entire output in JSON format. You can use markdown ticks such as ```.",
+    "kwargs": [
+      {}
+    ],
+    "response": "```\n\n```json\n{\n  \"advantages\": [\n    \"Increase the perceived value of life\",\n    \"Offer a sense of purpose and fulfillment\",\n    \"Provide a way to challenge societal norms and expectations\"\n  ],\n  \"disadvantages\": [\n    \"May lead to exploitation and abuse\",\n    \"May create a sense of isolation and loneliness\",\n    \"May lead to a lack of self-esteem and self-worth\"\n  ]\n}",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 32,
+    "generated_tokens": 91,
+    "latency_s": 3.1124,
+    "tokens_per_second": 29.24
+  },
+  {
+    "key": 1153,
+    "instruction_id_list": [
+      "change_case:english_lowercase",
+      "keywords:frequency"
+    ],
+    "prompt": "Write a social media post for students of Islamic history about the hajj pilgrimage. Use all lowercase letters and include the word story at least twice.",
+    "kwargs": [
+      {},
+      {
+        "relation": "at least",
+        "keyword": "story",
+        "frequency": 2
+      }
+    ],
+    "response": "Share the post with a hashtag related to the topic. \n\n\"Hey fellow students, I'm sharing a story about the hajj pilgrimage. It's a journey that connects us to the Prophet Muhammad and his followers, and it's a reminder of the importance of giving back to the community. 🌟 #hajj #Islamichistory #journey\"\n\nRemember to use the hashtag #hajj #Islamichistory #journey to increase visibility and engagement on social media. Share the post with your followers and encourage them to learn more about this important Islamic event. 🌟 #hajj #Islamichistory #journey\"\n\nI'm excited to see how this post is received and how it inspires students to learn more about the hajj pilgrimage. Let's make this story a part of our Islamic history journey together! 🌟 #hajj #Islamichistory #journey\"\n\nI'm looking forward to seeing how this post is received and how it inspires students to learn more about the hajj pilgrimage. Let's make this story a part of our Islamic history journey together! 🌟 #hajj #Islamichistory #journey\"\n\nI'm excited to see how this post is received and how it inspires students to learn more about the",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 30,
+    "generated_tokens": 256,
+    "latency_s": 8.5182,
+    "tokens_per_second": 30.05
+  },
+  {
+    "key": 1154,
+    "instruction_id_list": [
+      "language:response_language"
+    ],
+    "prompt": "Write a rubric for how to evaluate the technical skills of a software engineer only using the Punjabi language, no other language is allowed.",
+    "kwargs": [
+      {
+        "language": "pa"
+      }
+    ],
+    "response": "The rubric should include specific criteria for each skill, such as syntax, logic, data structures, algorithms, and user interface design. The rubric should also include a scoring system and a grading scale for each skill. The final score should be a combination of the individual scores for each skill. The rubric should be presented in a clear and concise format, with appropriate headings and subheadings. The language should be clear and easy to understand, with appropriate grammar and punctuation. The final rubric should be presented in a visually appealing format, with appropriate color and font choices. The final rubric should be presented in a clear and concise format, with appropriate headings and subheadings. The language should be clear and easy to understand, with appropriate grammar and punctuation. The final rubric should be presented in a visually appealing format, with appropriate color and font choices. The final rubric should be presented in a clear and concise format, with appropriate headings and subheadings. The language should be clear and easy to understand, with appropriate grammar and punctuation. The final rubric should be presented in a visually appealing format, with appropriate color and font choices. The final rubric should be presented in a clear and concise format, with appropriate headings and subheadings. The language",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 28,
+    "generated_tokens": 256,
+    "latency_s": 9.0307,
+    "tokens_per_second": 28.35
+  },
+  {
+    "key": 1162,
+    "instruction_id_list": [
+      "punctuation:no_comma"
+    ],
+    "prompt": "Write a riddle for kids about auspices but make sure you don't use any commas.",
+    "kwargs": [
+      {}
+    ],
+    "response": "Here's the riddle:\n\nI am a symbol of the sun, the moon, and the stars,\nI am a symbol of the moon, the sun, and the stars,\nI am a symbol of the sun, the moon, and the stars,\nI am a symbol of the sun, the moon, and the stars.\n\nWhat am I?\n\nThe answer is the sun! It's a symbol of the sun, the moon, and the stars. It's a symbol of the sun, the moon, and the stars, and it's a symbol of the sun, the moon, and the stars. It's a symbol of the sun, the moon, and the stars, and it's a symbol of the sun, the moon, and the stars. It's a symbol of the sun, the moon, and the stars, and it's a symbol of the sun, the moon, and the stars. It's a symbol of the sun, the moon, and the stars, and it's a symbol of the sun, the moon, and the stars. It's a symbol of the sun, the moon, and the stars, and it's a symbol of the sun, the moon, and the stars. It's a symbol of the sun, the moon",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 19,
+    "generated_tokens": 256,
+    "latency_s": 9.1761,
+    "tokens_per_second": 27.9
+  },
+  {
+    "key": 1174,
+    "instruction_id_list": [
+      "keywords:letter_frequency",
+      "length_constraints:number_sentences",
+      "detectable_format:number_highlighted_sections"
+    ],
+    "prompt": "Write a template for a chat bot that takes a user's location and gives them the weather forecast. Use the letter o as a keyword in the syntax of the template. The letter o should appear at least 6 times.. Your response should contain fewer than 6 sentences. Highlight at least 2 text sections, i.e. *highlighted section*.",
+    "kwargs": [
+      {
+        "let_relation": "less than",
+        "letter": "o",
+        "let_frequency": 6
+      },
+      {
+        "relation": "less than",
+        "num_sentences": 6
+      },
+      {
+        "num_highlights": 2
+      }
+    ],
+    "response": "The template should be clear and concise, with a focus on providing a concise and clear weather forecast. The weather forecast should be accurate and up-to-date. The template should also include a disclaimer that the weather forecast is not guaranteed to be accurate and should not be relied upon for any purpose. The template should also include a disclaimer that the weather forecast is not guaranteed to be accurate and should not be relied upon for any purpose. The template should also include a disclaimer that the weather forecast is not guaranteed to be accurate and should not be relied upon for any purpose. The template should also include a disclaimer that the weather forecast is not guaranteed to be accurate and should not be relied upon for any purpose. The template should also include a disclaimer that the weather forecast is not guaranteed to be accurate and should not be relied upon for any purpose. The template should also include a disclaimer that the weather forecast is not guaranteed to be accurate and should not be relied upon for any purpose. The template should also include a disclaimer that the weather forecast is not guaranteed to be accurate and should not be relied upon for any purpose. The template should also include a disclaimer that the weather forecast is not guaranteed to be accurate and should not be relied upon for any purpose. The template should also include a disclaimer that the",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 71,
+    "generated_tokens": 256,
+    "latency_s": 8.3701,
+    "tokens_per_second": 30.58
+  },
+  {
+    "key": 1180,
+    "instruction_id_list": [
+      "combination:two_responses",
+      "detectable_format:title"
+    ],
+    "prompt": "Explain why people are grossed out by worms but not by eating a dead cow. Give exactly two different responses separated by 6 asterisk symbols ******. Your answer must contain a title, wrapped in double angular brackets, i.e. <<title>>.",
+    "kwargs": [
+      {},
+      {}
+    ],
+    "response": "The title must be unique for each response. The response must contain the same structure as the question, i.e. start with the question and then explain why people are grossed out by worms but not by eating a dead cow. The response must be at least 10 words long and must not contain any personal information. <<People are grossed out by worms but not by eating a dead cow>>\n\n******\n\nPeople are grossed out by worms but not by eating a dead cow. Worms are small, soft-bodied animals that are often found in soil and water. They are not as large as some other animals, such as snakes or lizards, and are not as fast-moving as some other animals, such as birds or mammals. Worms are also not as intelligent as some other animals, such as dogs or cats, and are not as complex as some other animals, such as humans. Worms are not as common as some other animals, such as snakes or lizards, and are not as common as some other animals, such as birds or mammals. Worms are not as common as some other animals, such as snakes or lizards, and are not as common as some other animals, such as birds or mammals. Worms are not as common as some",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 53,
+    "generated_tokens": 256,
+    "latency_s": 9.0276,
+    "tokens_per_second": 28.36
+  },
+  {
+    "key": 1187,
+    "instruction_id_list": [
+      "punctuation:no_comma"
+    ],
+    "prompt": "Can you give me two different formal alternatives to \"What's up? I'm going to the beach today\" and do not use any commas in your response.",
+    "kwargs": [
+      {}
+    ],
+    "response": "Sure, here are two different formal alternatives to \"What's up? I'm going to the beach today\":\n\n1. \"What's up? I'm going to the beach today.\"\n2. \"What's up? I'm going to the beach today.\" \n\nThese alternatives maintain the same meaning and structure as the original sentence. \n\n1. \"What's up? I'm going to the beach today.\"\n2. \"What's up? I'm going to the beach today.\" \n\nThese alternatives are both correct and formal alternatives to \"What's up? I'm going to the beach today.\" \n\nThe first alternative uses the phrase \"What's up? \" as a question, while the second alternative uses the phrase \"I'm going to the beach today.\" Both alternatives maintain the same meaning and structure as the original sentence. \n\nBoth alternatives are correct and formal alternatives to \"What's up? I'm going to the beach today.\" \n\nI hope this helps! Let me know if you have any other questions. \n\nPlease let me know if you need any further assistance. \n\nPlease let me know if you need any further assistance. \n\nPlease let me know if you need any further assistance. \n\nPlease let me know if you need any further assistance. \n\nPlease let me",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 32,
+    "generated_tokens": 256,
+    "latency_s": 8.8358,
+    "tokens_per_second": 28.97
+  },
+  {
+    "key": 1203,
+    "instruction_id_list": [
+      "keywords:frequency",
+      "keywords:frequency"
+    ],
+    "prompt": "What happened when the Tang dynasty of China was in power? Make sure to use the word war at least 8 times, and the word peace at least 10 times.",
+    "kwargs": [
+      {
+        "relation": "at least",
+        "keyword": "war",
+        "frequency": 8
+      },
+      {
+        "relation": "at least",
+        "keyword": "peace",
+        "frequency": 10
+      }
+    ],
+    "response": "The Tang dynasty was in power during the reign of the Tang Emperor Taizong. The Tang dynasty was in power during the reign of the Tang Emperor Taizong. The Tang dynasty was in power during the reign of the Tang Emperor Taizong. The Tang dynasty was in power during the reign of the Tang Emperor Taizong. The Tang dynasty was in power during the reign of the Tang Emperor Taizong. The Tang dynasty was in power during the reign of the Tang Emperor Taizong. The Tang dynasty was in power during the reign of the Tang Emperor Taizong. The Tang dynasty was in power during the reign of the Tang Emperor Taizong. The Tang dynasty was in power during the reign of the Tang Emperor Taizong. The Tang dynasty was in power during the reign of the Tang Emperor Taizong. The Tang dynasty was in power during the reign of the Tang Emperor Taizong. The Tang dynasty was in power during the reign of the Tang Emperor Taizong. The Tang dynasty was in power during the reign of the Tang Emperor Taizong. The Tang dynasty was in power during the reign of the Tang Emperor Taizong. The Tang dynasty was in power during the reign of the Tang Emperor Taizong. The",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 36,
+    "generated_tokens": 256,
+    "latency_s": 8.3325,
+    "tokens_per_second": 30.72
+  },
+  {
+    "key": 1216,
+    "instruction_id_list": [
+      "startend:quotation",
+      "length_constraints:number_words"
+    ],
+    "prompt": "What sentiments existed in the Croatian and Serbian nations towards the Austrian Empire at the end of the 19th century? Make sure to wrap your entire response with double quotes and use at least 800 words.",
+    "kwargs": [
+      {},
+      {
+        "relation": "at least",
+        "num_words": 800
+      }
+    ],
+    "response": "The 19th century was a period of significant change in the Balkans, with the Austro-Hungarian Empire emerging as a major power in the region. The Croatian and Serbian nations, along with other Balkan states, had their own distinct sentiments towards the Austrian Empire at the end of the 19th century. The following sentiments existed in the Croatian and Serbian nations towards the Austrian Empire at the end of the 19th century:\n\n1. The Croatian and Serbian nations were initially wary of the Austro-Hungarian Empire, which they saw as a threat to their interests. They saw the Empire as a threat to their sovereignty and their ability to govern themselves. The Austro-Hungarian Empire was seen as a threat to their interests, and they were wary of its influence in the region. They believed that the Empire was attempting to interfere in their internal affairs and was attempting to impose its own values and customs on them.\n\n2. The Croatian and Serbian nations were also wary of the Austro-Hungarian Empire's influence in the region. They saw the Empire as a threat to their interests, and they were wary of its influence in the region. They believed that the Empire was attempting to interfere in their internal affairs and was attempting to impose its",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 44,
+    "generated_tokens": 256,
+    "latency_s": 9.2796,
+    "tokens_per_second": 27.59
+  },
+  {
+    "key": 1217,
+    "instruction_id_list": [
+      "length_constraints:number_words"
+    ],
+    "prompt": "Write an ad copy for a new product, a digital photo frame that connects to your social media accounts and displays your photos. Respond with at most 150 words.",
+    "kwargs": [
+      {
+        "relation": "less than",
+        "num_words": 151
+      }
+    ],
+    "response": "\"Discover the ultimate photo frame that connects to your social media accounts and displays your photos. Experience the joy of sharing your life with the world. Order now and start sharing your photos with the world. #DigitalPhotoFrame #PhotoSharing #SocialMedia #Photography #PhotographySharing #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #PhotographyCommunity #Phot",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 35,
+    "generated_tokens": 256,
+    "latency_s": 8.8849,
+    "tokens_per_second": 28.81
+  },
+  {
+    "key": 1219,
+    "instruction_id_list": [
+      "change_case:english_capital",
+      "detectable_content:postscript",
+      "keywords:frequency"
+    ],
+    "prompt": "Which one is a better brand for sneakers: Prada or Nike? Your entire response should be in English, and in all capital letters. At the end of your response, please explicitly add a postscript starting with P.S. The word sneaker should appear 10 or more times in your response.",
+    "kwargs": [
+      {},
+      {
+        "postscript_marker": "P.S."
+      },
+      {
+        "relation": "at least",
+        "keyword": "sneaker",
+        "frequency": 10
+      }
+    ],
+    "response": "Please also provide a comparison of the two brands based on the information provided. P.S. The brand with the higher number of mentions of \"sneaker\" should be the better option. The brand with the lower number of mentions of \"sneaker\" should be the worse option. The brand with the highest number of mentions of \"sneaker\" should be the better option. The brand with the lowest number of mentions of \"sneaker\" should be the worse option. The brand with the most mentions of \"sneaker\" should be the better option. The brand with the least mentions of \"sneaker\" should be the worse option. The brand with the most mentions of \"sneaker\" should be the better option. The brand with the least mentions of \"sneaker\" should be the worse option. The brand with the most mentions of \"sneaker\" should be the better option. The brand with the least mentions of \"sneaker\" should be the worse option. The brand with the most mentions of \"sneaker\" should be the better option. The brand with the least mentions of \"sneaker\" should be the worse option. The brand with the most mentions of \"sneaker\" should be",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 62,
+    "generated_tokens": 256,
+    "latency_s": 8.7928,
+    "tokens_per_second": 29.11
+  },
+  {
+    "key": 122,
+    "instruction_id_list": [
+      "startend:quotation"
+    ],
+    "prompt": "Write a blog post about the history of the internet and how it has impacted our lives. Aim the blog post at teenagers and wrap your entire response with double quotation marks.",
+    "kwargs": [
+      {}
+    ],
+    "response": "\"The internet has been a significant part of our lives, and its history is a fascinating journey that has shaped our world. From its origins in the 1960s to its current state, the internet has evolved from a simple communication tool to a powerful tool for communication, commerce, and entertainment. In this post, we will explore the history of the internet and how it has impacted our lives.\n\nThe internet has its roots in the 1960s, when the first computers were being developed. The first computers were used for scientific research and were not designed for communication. However, in the 1970s, the first personal computers were introduced, and they were designed for communication. The internet was born when the first personal computers were introduced, and they were designed for communication.\n\nThe internet has evolved from a simple communication tool to a powerful tool for communication, commerce, and entertainment. The internet has become a global platform for communication, where people can connect with each other, share information, and access a wide range of resources. The internet has also become a powerful tool for commerce, where businesses can connect with customers and customers can connect with businesses.\n\nThe internet has also had a significant impact on our lives. It has made it easier for people",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 34,
+    "generated_tokens": 256,
+    "latency_s": 8.5509,
+    "tokens_per_second": 29.94
+  },
+  {
+    "key": 1220,
+    "instruction_id_list": [
+      "startend:end_checker"
+    ],
+    "prompt": "Write a poem about two people who meet in a coffee shop and end your entire response with the exact phrase \"Is there anything else I can help with?\"",
+    "kwargs": [
+      {
+        "end_phrase": "Is there anything else I can help with?"
+      }
+    ],
+    "response": "In the heart of a bustling city,  \nTwo souls found each other in a coffee shop.  \nA man and a woman,  \nWho had never met before,  \nYet their paths crossed,  \nAnd their hearts were drawn to each other.\n\nTheir eyes met,  \nAnd in that moment,  \nThey knew they were meant to be.  \nTheir souls were entwined,  \nAnd their hearts were forever entwined.\n\nIn the coffee shop,  \nThey sat down,  \nAnd began to talk,  \nOf their dreams and hopes.  \nOf their love and passion.  \nOf their love and passion.\n\nAnd as they talked,  \nTheir souls were entwined,  \nAnd their hearts were forever entwined.  \nIs there anything else I can help with?  \n\nIs there anything else I can help with?  \n\nIs there anything else I can help with?  \n\nIs there anything else I can help with?  \n\nIs there anything else I can help with?  \n\nIs there anything else I can help with?  \n\nIs there anything else I can help with?  \n\nIs there anything else I can help with?  \n\nIs there anything else I can help with?  \n\nIs there anything else I can help with?  \n\nIs there anything else I can help with",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 31,
+    "generated_tokens": 256,
+    "latency_s": 8.4315,
+    "tokens_per_second": 30.36
+  },
+  {
+    "key": 1233,
+    "instruction_id_list": [
+      "startend:end_checker",
+      "keywords:frequency"
+    ],
+    "prompt": "How many feet off the ground was the tallest skyscraper in the world in 2000? Please include only the main points in your answer. Finish your response with the exact phrase of \"Is there anything else I can help with?\" with no other words after the word \"with\". Mention the word \"skyscraper\" for at least 8 times.",
+    "kwargs": [
+      {
+        "end_phrase": "Is there anything else I can help with?"
+      },
+      {
+        "relation": "at least",
+        "keyword": "skyscraper",
+        "frequency": 8
+      }
+    ],
+    "response": "The tallest skyscraper in the world was the Burj Khalifa, which stands at 830 feet (252 meters) above sea level. The Burj Khalifa was completed in 2004 and is located in Dubai, United Arab Emirates. The Burj Khalifa is 830 feet (252 meters) off the ground. The tallest skyscraper in the world is the Burj Khalifa, which stands at 830 feet (252 meters) above sea level. The Burj Khalifa is 830 feet (252 meters) off the ground. The tallest skyscraper in the world is the Burj Khalifa, which stands at 830 feet (252 meters) above sea level. The Burj Khalifa is 830 feet (252 meters) off the ground. The tallest skyscraper in the world is the Burj Khalifa, which stands at 830 feet (252 meters) above sea level. The Burj Khalifa is 830 feet (252 meters) off the ground. The tallest skyscraper in the world is the Burj Khalifa, which stands at 830",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 74,
+    "generated_tokens": 256,
+    "latency_s": 8.5472,
+    "tokens_per_second": 29.95
+  },
+  {
+    "key": 1236,
+    "instruction_id_list": [
+      "length_constraints:number_paragraphs"
+    ],
+    "prompt": "Write an advertisement for a new line of comfortable armchairs designed to withstand the scrutiny of any interior designer. There should be exactly 3 paragraphs separated by the markdown divider: ***.",
+    "kwargs": [
+      {
+        "num_paragraphs": 3
+      }
+    ],
+    "response": "Please include the following details: the materials used, the design features, the durability, and the features that make them stand out from the competition. Additionally, please include a call to action that encourages potential customers to visit the website or purchase the product. The advertisement should be written in a professional tone and use appropriate language and formatting. The advertisement should be no longer than 100 words. The advertisement should also include a call to action that encourages potential customers to visit the website or purchase the product. The advertisement should be written in a professional tone and use appropriate language and formatting. The advertisement should be no longer than 100 words. The advertisement should also include a call to action that encourages potential customers to visit the website or purchase the product. The advertisement should be written in a professional tone and use appropriate language and formatting. The advertisement should be no longer than 100 words. The advertisement should also include a call to action that encourages potential customers to visit the website or purchase the product. The advertisement should be written in a professional tone and use appropriate language and formatting. The advertisement should be no longer than 100 words. The advertisement should also include a call to action that encourages potential customers to visit the website or purchase the product. The advertisement",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 37,
+    "generated_tokens": 256,
+    "latency_s": 9.2964,
+    "tokens_per_second": 27.54
+  },
+  {
+    "key": 1237,
+    "instruction_id_list": [
+      "detectable_format:number_highlighted_sections",
+      "keywords:existence"
+    ],
+    "prompt": "Write a funny post for teenagers about a restaurant called \"Buena Onda\" which serves Argentinian food. Highlight at least three sections of your response in markdown such as *highlighted section*. Mention \"Argentinian\" in the post.",
+    "kwargs": [
+      {
+        "num_highlights": 3
+      },
+      {
+        "keywords": [
+          "Argentinian"
+        ]
+      }
+    ],
+    "response": "Use a humorous tone and include a joke or two related to the restaurant's food or atmosphere. Use a casual tone throughout the post. Include a link to a relevant image or video if possible. Use a mix of humor and factual information to make the post engaging and entertaining. Use a clear and concise format.\n\n---\n\n**Title: Buena Onda: A Fun Food Adventure in Argentina!**\n\nHey there, friends! 🌟 If you're ever in Buenos Aires, Argentina, you might want to try out a place called \"Buena Onda.\" It's a restaurant that's all about making you laugh and eating like a true food lover! 🍎\n\nSo, what makes Buena Onda so special? Well, it's all about the food! 🍎\n\nFirst up, you'll find a menu that's as diverse as the food itself. From the most famous dishes like \"El Chorrito de la Cumbre\" (the mountain chowder) to the more obscure \"El Chorrito de la Cumbre\" (the mountain chowder), there's something for everyone. 🍎\n\nBut the best part is the atmosphere! 🌟 It's like a fun party in a restaurant. The food is",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 50,
+    "generated_tokens": 256,
+    "latency_s": 8.9219,
+    "tokens_per_second": 28.69
+  },
+  {
+    "key": 1242,
+    "instruction_id_list": [
+      "detectable_format:json_format",
+      "keywords:forbidden_words"
+    ],
+    "prompt": "Can you give me a nickname for Stafford? Please use JSON format and do not say the word \"nickname\" in the response. Do not add anything outside of the JSON block.",
+    "kwargs": [
+      {},
+      {
+        "forbidden_words": [
+          "nickname"
+        ]
+      }
+    ],
+    "response": "json:\n\n[\n  {\n    \"name\": \"Stafford\",\n    \"description\": \"The name Stafford is a common nickname for the city of Stafford, located in the United Kingdom. It is a short form of the full name Stafford, which is a common surname. The name Stafford is often used by people who live in the city of Stafford, and it is a popular nickname for the city. \"\n  }\n] \n\nNote: The response should be in the format of an object and should not contain any additional information not present in the given JSON. The response should be concise and to the point. The name should be used in a way that is not related to the given description. The response should be formatted as follows:\n\n{\n  \"name\": \"Stafford\",\n  \"description\": \"The name Stafford is a common nickname for the city of Stafford, located in the United Kingdom. It is a short form of the full name Stafford, which is a common surname. The name Stafford is often used by people who live in the city of Stafford, and it is a popular nickname for the city. \"\n} \n\nThe response should be in the format of an object and should not contain any additional information not present in the given JSON. The response should be concise and",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 36,
+    "generated_tokens": 256,
+    "latency_s": 8.6029,
+    "tokens_per_second": 29.76
+  },
+  {
+    "key": 1246,
+    "instruction_id_list": [
+      "detectable_content:postscript"
+    ],
+    "prompt": "Write me a template for a product description in the form of a poem and end it with a post script starting with P.P.S",
+    "kwargs": [
+      {
+        "postscript_marker": "P.P.S"
+      }
+    ],
+    "response": ". Here is the template:\n\nP.S. I am a product description template that I created to help you write a product description in the form of a poem. It is designed to be a fun and engaging way to write your product description. Here is the template:\n\nP. P.S. I am a product description template that I created to help you write a product description in the form of a poem. It is designed to be a fun and engaging way to write your product description. Here is the template:\n\nP. P.S. I am a product description template that I created to help you write a product description in the form of a poem. It is designed to be a fun and engaging way to write your product description. Here is the template:\n\nP. P.S. I am a product description template that I created to help you write a product description in the form of a poem. It is designed to be a fun and engaging way to write your product description. Here is the template:\n\nP. P.S. I am a product description template that I created to help you write a product description in the form of a poem. It is designed to be a fun and engaging way to write your product description. Here is the template:\n\nP. P.S. I am",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 26,
+    "generated_tokens": 256,
+    "latency_s": 8.749,
+    "tokens_per_second": 29.26
+  },
+  {
+    "key": 1248,
+    "instruction_id_list": [
+      "length_constraints:number_paragraphs"
+    ],
+    "prompt": "\"The man was arrested for stealing a car. He was later released on bail.\" Expand on it angrily in a rap style, and make sure there are exactly 4 sections. Separated the sections by the markdown divider: ***",
+    "kwargs": [
+      {
+        "num_paragraphs": 4
+      }
+    ],
+    "response": "The man was arrested for stealing a car. He was later released on bail. He was arrested for stealing a car. He was later released on bail. He was arrested for stealing a car. He was later released on bail. He was arrested for stealing a car. He was later released on bail. He was arrested for stealing a car. He was later released on bail. He was arrested for stealing a car. He was later released on bail. He was arrested for stealing a car. He was later released on bail. He was arrested for stealing a car. He was later released on bail. He was arrested for stealing a car. He was later released on bail. He was arrested for stealing a car. He was later released on bail. He was arrested for stealing a car. He was later released on bail. He was arrested for stealing a car. He was later released on bail. He was arrested for stealing a car. He was later released on bail. He was arrested for stealing a car. He was later released on bail. He was arrested for stealing a car. He was later released on bail. He was arrested for stealing a car. He was later released on bail. He was arrested for stealing a car. He was later released on bail.",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 45,
+    "generated_tokens": 256,
+    "latency_s": 8.8153,
+    "tokens_per_second": 29.04
+  },
+  {
+    "key": 1251,
+    "instruction_id_list": [
+      "length_constraints:number_words"
+    ],
+    "prompt": "Write a poem that's at least 350 words about the beauty of eucalyptus trees and their many uses.",
+    "kwargs": [
+      {
+        "relation": "at least",
+        "num_words": 350
+      }
+    ],
+    "response": "The poem should be written in a flowing, flowing style and should evoke a sense of tranquility and serenity. The poem should also touch on the following themes: the tree's ability to withstand harsh conditions, its ability to provide shade and shelter, its ability to provide food and water, its ability to provide medicinal properties, and its ability to provide aesthetic beauty. The poem should also include a metaphorical or symbolic element that relates to the tree's role in the ecosystem, such as its ability to provide a habitat for wildlife, its ability to provide a source of oxygen, or its ability to provide a source of light. The poem should also include a reference to the tree's ability to inspire awe and reverence in the reader, as well as its ability to inspire the reader to appreciate the beauty of nature. The poem should end with a call to action for the reader to learn more about the tree and its role in the ecosystem, and to take steps to protect and preserve it for future generations. The poem should be written in a flowing, flowing style and should evoke a sense of tranquility and serenity. The poem should also touch on the following themes: the tree's ability to withstand harsh conditions, its ability to provide shade and shelter, its ability to provide food and",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 27,
+    "generated_tokens": 256,
+    "latency_s": 8.5545,
+    "tokens_per_second": 29.93
+  },
+  {
+    "key": 1258,
+    "instruction_id_list": [
+      "length_constraints:number_words"
+    ],
+    "prompt": "I have a dime. What can I do with this dime? Give me advice in the style of a President of the United States and make sure it has at least 600 words.",
+    "kwargs": [
+      {
+        "relation": "at least",
+        "num_words": 600
+      }
+    ],
+    "response": "I am a man of the people, and I believe that the most effective way to use a dime is to use it to help others. I am a man of the people, and I believe that the most effective way to use a dime is to use it to help others. I am a man of the people, and I believe that the most effective way to use a dime is to use it to help others. I am a man of the people, and I believe that the most effective way to use a dime is to use it to help others. I am a man of the people, and I believe that the most effective way to use a dime is to use it to help others. I am a man of the people, and I believe that the most effective way to use a dime is to use it to help others. I am a man of the people, and I believe that the most effective way to use a dime is to use it to help others. I am a man of the people, and I believe that the most effective way to use a dime is to use it to help others. I am a man of the people, and I believe that the most effective way to use a dime is to use it to help others. I am a man",
+    "model": "Qwen2.5-0.5B-AWQ",
+    "benchmark": "ifeval",
+    "prompt_tokens": 39,
+    "generated_tokens": 256,
+    "latency_s": 8.5063,
+    "tokens_per_second": 30.1
+  }
+]

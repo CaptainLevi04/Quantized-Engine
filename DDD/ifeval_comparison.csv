@@ -1,0 +1,3 @@
+Model,Samples,Prompt Strict (%),Inst Strict (%),Prompt Loose (%),Inst Loose (%),IFEval Overall (%),Wall Time (s),Avg Throughput (tok/s)
+Qwen2.5-0.5B,50,10.0,14.47,14.0,18.42,14.22,300.53,28.99
+Qwen2.5-0.5B-AWQ,50,10.0,15.79,18.0,21.05,16.21,411.2,30.62
